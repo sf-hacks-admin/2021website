@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
 
+import LandingPage from "./screens/LandingPage";
+
 function App() {
-  return <div className="App"></div>;
+  return <LandingPage />;
 }
 
 export default App;
