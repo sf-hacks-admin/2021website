@@ -22,6 +22,10 @@ function replaceAt(str, index, replacement) {
   );
 }
 
+function timeout(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 const glitchTextOpt = [
   "SAN FRANCISCO STATE UNIVERSITY",
   "ALL HACKERS WELCOME",
@@ -37,64 +41,58 @@ class LandingPage extends Component {
     const glitchTextChange = async () => {
       var oldtext = glitchTextOpt[this.state.glitchTextIndex];
 
-      var newtext;
+      var nextIndex;
       if (this.state.glitchTextIndex === 2) {
+        nextIndex = 0;
         newtext = glitchTextOpt[0];
       } else {
+        nextIndex = this.state.glitchTextIndex + 1;
         newtext = glitchTextOpt[this.state.glitchTextIndex + 1];
       }
-
+      var newtext = glitchTextOpt[nextIndex];
       const glitch = async index => {
-        console.log("glitch started");
         const randText = "!<>-_\\/[]{}—=+*^?#_()__";
-        var randItteration = getRandom(25, 35);
         var replacementChar = "^";
-        let i = 0;
-        while (i < randItteration) {
+        for (let i = 0; i < getRandom(2, 8); i++) {
           replacementChar = randText[getRandom(0, randText.length - 1)];
           this.setState({
             glitchText: replaceAt(this.state.glitchText, index, replacementChar)
           });
-
-          //   await new Promise(resolve => setTimeout(resolve, 1000));
+          await timeout(10);
         }
-        console.log("glitch ended");
       };
 
-      for (let i = 0; i < oldtext.length; i++) {
-        glitch(i);
+      let orgLength = Math.max(oldtext.length, newtext.length);
 
-        // if (i >= newtext.length) {
-        //   //   glitch and replace that with ""
-        //   //
-        //   oldtext = replaceAt(oldtext, i, " ");
-        //   this.setState({
-        //     glitchText: oldtext
-        //   });
-        // } else {
-        //   // glitch and replace oldtext[i] = newtext[i];
-        //   //
-        //   oldtext = replaceAt(oldtext, i, newtext[i]);
-        //   this.setState({
-        //     glitchText: oldtext
-        //   });
-        // }
-        console.log("text changed");
+      if (newtext.length > orgLength) {
+        oldtext = oldtext + " ".repeat(newtext.length - orgLength);
+      }
+
+      for (let i = 0; i < orgLength; i++) {
+        await glitch(i);
+
+        if (i >= newtext.length) {
+          oldtext = replaceAt(oldtext, i, " ");
+          this.setState({
+            glitchText: oldtext
+          });
+        } else {
+          oldtext = replaceAt(oldtext, i, newtext[i]);
+          this.setState({
+            glitchText: oldtext
+          });
+        }
       }
 
       this.setState({
-        glitchTextIndex: this.state.glitchTextIndex + 1
+        glitchTextIndex: nextIndex,
+        glitchText: newtext
       });
     };
 
     this.glitchTimeout = setInterval(() => {
-      //   if (this.state.glitchTextIndex === 2) {
-      //     this.setState({ glitchTextIndex: 0 });
-      //   } else {
-      //     this.setState({ glitchTextIndex: this.state.glitchTextIndex + 1 });
-      //   }
       glitchTextChange();
-    }, 5000);
+    }, 5 * 1000);
   }
 
   componentDidUnmount() {
@@ -111,13 +109,12 @@ class LandingPage extends Component {
 
   render() {
     return (
-      <div>
-        {/* <Header /> */}
+      <div style={{ height: "100vh" }}>
+        <Header />
         <div
           id="lp-main-container"
           style={{
-            backgroundImage: `url(${Background}) `
-            //   height: "80vh",
+            minHeight: "88vh"
           }}
         >
           <div>
@@ -127,11 +124,10 @@ class LandingPage extends Component {
             />
           </div>
           <div
-            className="lp-h1"
-            style={{ marginTop: "90px", fontSize: "50px" }}
+            className="lp-h1 glitch"
+            style={{ marginTop: "90px", textAlign: "center" }}
           >
             {this.state.glitchText}
-            {/* {glitchTextOpt[this.state.glitchTextIndex]} */}
           </div>
           <div
             style={{
@@ -177,7 +173,7 @@ class LandingPage extends Component {
             </IconButton>
           </div>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

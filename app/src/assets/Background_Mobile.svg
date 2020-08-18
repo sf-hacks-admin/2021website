@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="695.2" viewBox="0 0 375 695.2">
+  <defs>
+    <clipPath id="clip-Background_Mobile">
+      <rect width="375" height="695.2"/>
+    </clipPath>
+  </defs>
+  <g id="Background_Mobile" data-name="Background Mobile" clip-path="url(#clip-Background_Mobile)">
+    <rect width="375" height="695.2" fill="#fff"/>
+    <path id="Path_9" data-name="Path 9" d="M0,.216l73.232-7.4L240.361-.872,328.59-11.1,375,.216V679.768l-76.929-8.706L188.861,683.524,94.1,672.057,45.255,684.1l-45.1-6.276Z" transform="translate(0 11)" fill="#eadff7"/>
+  </g>
+</svg>
