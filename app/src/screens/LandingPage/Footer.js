@@ -4,13 +4,12 @@ const Footer = () => {
   return (
     <div
       style={{
-        // marginTop: "10px",
-        // marginBottom: "10px",
+        marginTop: "10px",
         height: "5vh",
         textAlign: "center",
         display: "flex",
-        alignItems: "center",
-        alignContent: "center",
+        alignItems: "flex-end",
+        alignContent: "flex-end",
         justifyContent: "center"
       }}
     >

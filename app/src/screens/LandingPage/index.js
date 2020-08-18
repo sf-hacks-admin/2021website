@@ -58,7 +58,7 @@ class LandingPage extends Component {
           this.setState({
             glitchText: replaceAt(this.state.glitchText, index, replacementChar)
           });
-          await timeout(10);
+          await timeout(8);
         }
       };
 
@@ -92,7 +92,7 @@ class LandingPage extends Component {
 
     this.glitchTimeout = setInterval(() => {
       glitchTextChange();
-    }, 5 * 1000);
+    }, 3 * 1000);
   }
 
   componentDidUnmount() {
@@ -131,14 +131,14 @@ class LandingPage extends Component {
           </div>
           <div
             style={{
-              marginTop: "60px",
+              marginTop: "30px",
               display: "flex",
               flexDirection: "row",
-              minWidth: "300px",
+              minWidth: "250px",
               justifyContent: "space-between"
             }}
           >
-            <IconButton
+            <Link
               href="https://www.facebook.com/sfhacks/"
               target="_blank"
               rel="noreferrer"
@@ -146,10 +146,10 @@ class LandingPage extends Component {
               <SvgIcon
                 component={Facebook_Icon}
                 viewBox="0 0 90 90"
-                style={{ fontSize: "50" }}
+                style={{ fontSize: "65" }}
               />
-            </IconButton>
-            <IconButton
+            </Link>
+            <Link
               href="https://www.instagram.com/sf.hacks/"
               target="_blank"
               rel="noreferrer"
@@ -157,10 +157,10 @@ class LandingPage extends Component {
               <SvgIcon
                 component={Instagram_Icon}
                 viewBox="0 0 90 90"
-                style={{ fontSize: "50" }}
+                style={{ fontSize: "65" }}
               />
-            </IconButton>
-            <IconButton
+            </Link>
+            <Link
               href="https://twitter.com/SF_Hacks/"
               target="_blank"
               rel="noreferrer"
@@ -168,9 +168,9 @@ class LandingPage extends Component {
               <SvgIcon
                 component={Twitter_Icon}
                 viewBox="0 0 90 90"
-                style={{ fontSize: "50" }}
+                style={{ fontSize: "65" }}
               />
-            </IconButton>
+            </Link>
           </div>
         </div>
         <Footer />
