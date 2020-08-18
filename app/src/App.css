@@ -13,7 +13,7 @@
   align-content: center;
   align-items: center;
 
-  /* background-image: url("./assets/Background.svg"); */
+  background-image: url("./assets/Background.svg");
   background-repeat: repeat no-repeat;
   background-size: auto 90vh;
   /* 
