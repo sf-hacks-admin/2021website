@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+.logo {
+  width: auto;
+  height: 300px;
+}
+/* lp - landing page */
+#lp-main-container {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  background-image: url("./assets/Background.svg");
+  background-repeat: repeat no-repeat;
+  background-size: auto 98%;
+  /* background-size: auto 90vh; */
+  /* 
+  padding-top: 50px;
+  padding-bottom: 50px; */
+}
+
+.lp-h1 {
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 61px;
+  color: #512783;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-family: "Nunito";
+  font-weight: 600;
+  color: #512783;
+}
+
+@media only screen and (max-width: 950px) {
+  .lp-h1 {
+    font-size: 40px;
+  }
+
+  .logo {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .lp-h1 {
+    font-size: 20px;
+  }
+  .logo {
+    height: 150px;
+  }
+}
