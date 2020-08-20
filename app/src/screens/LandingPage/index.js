@@ -92,7 +92,7 @@ class LandingPage extends Component {
 
     this.glitchTimeout = setInterval(() => {
       glitchTextChange();
-    }, 3 * 1000);
+    }, 4.5 * 1000);
   }
 
   componentDidUnmount() {
