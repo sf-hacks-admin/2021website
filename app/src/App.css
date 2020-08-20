@@ -15,7 +15,7 @@
 
   background-image: url("./assets/Background.svg");
   background-repeat: repeat no-repeat;
-  background-size: cover;
+  background-size: auto 98%;
   /* background-size: auto 90vh; */
   /* 
   padding-top: 50px;
