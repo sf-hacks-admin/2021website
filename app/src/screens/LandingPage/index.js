@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 import Background from "../../assets/Background.svg";
 import { ReactComponent as Instagram_Icon } from "../../assets/Instagram_Icon.svg";
@@ -28,8 +28,8 @@ function timeout(ms) {
 
 const glitchTextOpt = [
   "SAN FRANCISCO STATE UNIVERSITY",
-  "ALL HACKERS WELCOME",
-  "COMING SOON"
+  "ALL HACKERS WELCOME"
+  // "COMING SOON"
 ];
 class LandingPage extends Component {
   state = {
@@ -42,7 +42,7 @@ class LandingPage extends Component {
       var oldtext = glitchTextOpt[this.state.glitchTextIndex];
 
       var nextIndex;
-      if (this.state.glitchTextIndex === 2) {
+      if (this.state.glitchTextIndex === 1) {
         nextIndex = 0;
         newtext = glitchTextOpt[0];
       } else {
@@ -110,7 +110,6 @@ class LandingPage extends Component {
   render() {
     return (
       <div style={{ height: "100vh" }}>
-        <Header />
         <div
           id="lp-main-container"
           style={{
@@ -173,7 +172,6 @@ class LandingPage extends Component {
             </Link>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

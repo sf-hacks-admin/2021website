@@ -54,3 +54,20 @@
     height: 150px;
   }
 }
+
+/* about section */
+.about-profile-name {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff;
+}
+.about-profile-pos {
+  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}
+/* end about action */
