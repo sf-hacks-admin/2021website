@@ -2,14 +2,15 @@
 
 .logo {
   width: auto;
-  height: 300px;
+  height: 450px;
 }
 /* lp - landing page */
 #lp-main-container {
   min-height: 300px;
+  height: 95vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
 
@@ -57,7 +58,7 @@
   }
 
   .logo {
-    height: 200px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -65,7 +66,7 @@
     font-size: 20px;
   }
   .logo {
-    height: 150px;
+    height: 300px;
   }
 }
 

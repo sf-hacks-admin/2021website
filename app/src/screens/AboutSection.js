@@ -93,11 +93,19 @@ const AboutSection = () => {
           return (
             <div
               style={{
-                // flex: "0 0 30%",
-                padding: 15
+                flex: "0 0 25%",
+                padding: 15,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center"
               }}
             >
-              <div style={{ backgroundColor: "#512783" }}>
+              <div
+                style={{
+                  backgroundColor: "#512783",
+                  width: "210px"
+                }}
+              >
                 <img className="about-profile-img" src={profile.image} />
                 <div style={{ padding: 10, paddingLeft: 15 }}>
                   <div className="about-profile-name">{profile.name}</div>
