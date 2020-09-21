@@ -34,7 +34,21 @@
   font-size: 12px;
   font-family: "Nunito";
   font-weight: 600;
-  color: #512783;
+  color: #ffffff;
+}
+.footer-main-container {
+  margin-top: 10px;
+  height: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: center;
+
+  background-image: url("./assets/Footer.png");
+  background-repeat: repeat no-repeat;
+  background-size: auto 98%;
 }
 
 @media only screen and (max-width: 950px) {
@@ -57,17 +71,60 @@
 
 /* about section */
 .about-profile-name {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat";
   font-weight: 600;
-  line-height: 25px;
+  line-height: 24px;
   color: #ffffff;
 }
 .about-profile-pos {
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Montserrat";
   font-weight: 400;
   line-height: 20px;
   color: #ffffff;
 }
+
+.about-h1 {
+  font: normal normal bold 40px/53px "Montserrat";
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #512783;
+}
+.about-h3 {
+  font: normal normal bold 25px/39px Nunito;
+  letter-spacing: 4px;
+  color: #512783;
+  text-transform: uppercase;
+}
+.about-reg1 {
+  font: normal normal 600 18px/24px Nunito;
+  letter-spacing: 0px;
+  color: #512783;
+}
+
+.about-profile-img {
+  width: 210px;
+  height: 220px;
+}
 /* end about action */
+
+/* unvisited link */
+a:link {
+  color: #512783;
+}
+
+/* visited link */
+a:visited {
+  color: #512783;
+}
+
+/* mouse over link */
+a:hover {
+  color: #73529b;
+}
+
+/* selected link */
+a:active {
+  color: #512783;
+}

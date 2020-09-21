@@ -47,12 +47,40 @@ const AboutSection = () => {
     }
   ];
   return (
-    <div>
-      <div>ABOUT US:</div>
+    <div style={{ paddingRight: "10%", paddingLeft: "10%" }}>
+      <div className="about-h1">ABOUT US:</div>
+      <div style={{ marginTop: 20 }}>
+        <div className="about-h3">OUR MISSION:</div>
+        <div className="about-reg1" style={{ marginTop: 8 }}>
+          Our organization’s purpose is to plan and host California’s most
+          talented collegiate hackers, designers, and developers, to a 24-hour
+          hackathon. We work towards giving students an environment for maximum
+          innovation, collaboration, and education.
+        </div>
+      </div>
+      <div style={{ marginTop: 20 }}>
+        <div className="about-h3">Meet Our Team:</div>
+        <div className="about-reg1" style={{ marginTop: 8 }}>
+          With our next season of SF Hacks and brand new initiative for virtual
+          building, we’re looking for NEW DIRECTORS to join the our design team
+          as Illustrators and Graphics Designers! All SFSU students are welcome
+          regardless of major or experience!
+        </div>
+        <div className="about-reg1">
+          Email us at{" "}
+          <a
+            href="mailto: sfhacksteam@gmail.com"
+            style={{ textDecoration: "none" }}
+          >
+            sfhacksteam@gmail.com
+          </a>{" "}
+          with your portfolio.
+        </div>
+      </div>
+
       <div
         style={{
-          paddingRight: 100,
-          paddingLeft: 100,
+          marginTop: 30,
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
@@ -65,13 +93,12 @@ const AboutSection = () => {
           return (
             <div
               style={{
-                flex: "0 0 30%",
-                padding: 15,
-                width: 270
+                // flex: "0 0 30%",
+                padding: 15
               }}
             >
-              <div style={{ width: 270, backgroundColor: "#512783" }}>
-                <img src={profile.image} style={{ width: 270, height: 254 }} />
+              <div style={{ backgroundColor: "#512783" }}>
+                <img className="about-profile-img" src={profile.image} />
                 <div style={{ padding: 10, paddingLeft: 15 }}>
                   <div className="about-profile-name">{profile.name}</div>
                   <div className="about-profile-pos">{profile.position}</div>
