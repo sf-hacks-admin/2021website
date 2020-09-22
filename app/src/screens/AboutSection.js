@@ -34,7 +34,7 @@ const AboutSection = () => {
       position: "Sponshorship Lead",
       image: NyaProfileImage
     },
-    { name: "Aman Kunar", position: "Design Lead", image: AmanProfileImage },
+    { name: "Aman Kumar", position: "Design Lead", image: AmanProfileImage },
     {
       name: "Jainam Shah",
       position: "Web Developer",
