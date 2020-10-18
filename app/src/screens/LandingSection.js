@@ -1,11 +1,12 @@
 import React from "react";
 import SFHACKs_logo from "../assets/SF_Hacks_Logo.png";
-const HomePage = () => {
+const LandingSection = () => {
   return (
     <div>
       <div
         style={{
-          height: "90vh",
+          marginTop: -50,
+          height: "100vh",
           minHeight: 500,
           display: "flex",
           flexDirection: "row",
@@ -26,4 +27,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default LandingSection;

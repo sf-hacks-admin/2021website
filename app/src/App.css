@@ -80,51 +80,6 @@
 
 /*  */
 /*  */
-/* about section */
-.about-profile-name {
-  font-size: 18px;
-  font-family: "Montserrat";
-  font-weight: 600;
-  line-height: 24px;
-  color: #ffffff;
-}
-.about-profile-pos {
-  font-size: 13px;
-  font-family: "Montserrat";
-  font-weight: 400;
-  line-height: 20px;
-  color: #ffffff;
-}
-
-.about-highlight {
-  background-color: #d7b5ff;
-}
-
-.about-h1 {
-  font: normal normal bold 45px/58px "Montserrat";
-  letter-spacing: 3px;
-  /* text-transform: uppercase; */
-  /* background-color: #d7b5ff; */
-  color: #000000;
-}
-
-.about-h3 {
-  font: normal normal bold 25px/43px "Montserrat";
-  font-weight: 700;
-  letter-spacing: 0px;
-  color: #000000;
-}
-.about-reg1 {
-  font: normal normal 600 18px/24px "Montserrat";
-  letter-spacing: 0px;
-  color: #512783;
-}
-
-.about-profile-img {
-  width: 210px;
-  height: 220px;
-}
-/* end about action */
 
 /* unvisited link */
 a:link {

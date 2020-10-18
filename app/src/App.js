@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 // import LandingPage_temp from "./screens/LandingPage/index";
-import HomePage from "./screens/HomePage";
+import LandingSection from "./screens/LandingSection";
 import AboutSection from "./screens/AboutSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -12,8 +12,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header />
-      <HomePage />
+      <LandingSection />
       <AboutSection />
       <Footer />
     </div>

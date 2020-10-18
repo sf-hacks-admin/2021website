@@ -1,0 +1,67 @@
+.headingText1 {
+  text-align: left;
+  font: normal normal bold 50px/79px "Montserrat";
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.headingText2 {
+  text-align: left;
+  font: normal normal bold 30px/48px "Montserrat";
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.highlight {
+  background-color: #d7b5ff;
+}
+
+.descriptionText {
+  text-align: center;
+  font: normal normal normal 17px/28px "Montserrat";
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.profileName {
+  text-align: center;
+  font: normal normal 600 17px/28px "Montserrat";
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.about-profile-pos {
+  font-size: 13px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.about-h1 {
+  font: normal normal bold 45px/58px "Montserrat";
+  letter-spacing: 3px;
+  /* text-transform: uppercase; */
+  /* background-color: #d7b5ff; */
+  color: #000000;
+}
+
+.about-h3 {
+  font: normal normal bold 25px/43px "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.about-reg1 {
+  font: normal normal 600 18px/24px "Montserrat";
+  letter-spacing: 0px;
+  color: #512783;
+}
+
+.about-profile-img {
+  width: 210px;
+  height: 220px;
+}
+/* end about action */
