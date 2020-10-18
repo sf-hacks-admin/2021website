@@ -10,6 +10,8 @@ import MeghaProfileImage from "../assets/teamProfile/Megha.png";
 import NyaProfileImage from "../assets/teamProfile/Nya.png";
 import OrionProfileImage from "../assets/teamProfile/Orion.png";
 
+import missionPicture from "../assets/mission.png";
+
 const AboutSection = () => {
   const profiles = [
     { name: "Leisha Murthy", position: "President", image: LeishaProfileImage },
@@ -48,14 +50,31 @@ const AboutSection = () => {
   ];
   return (
     <div style={{ paddingRight: "10%", paddingLeft: "10%" }}>
-      <div className="about-h1">ABOUT US:</div>
+      <div className="about-h1" style={{ textAlign: "center" }}>
+        <span className="about-highlight">About Us</span>
+      </div>
       <div style={{ marginTop: 20 }}>
-        <div className="about-h3">OUR MISSION:</div>
-        <div className="about-reg1" style={{ marginTop: 8 }}>
-          Our organization’s purpose is to plan and host California’s most
-          talented collegiate hackers, designers, and developers, to a 24-hour
-          hackathon. We work towards giving students an environment for maximum
-          innovation, collaboration, and education.
+        <div className="about-h3">
+          <span className="about-highlight">OUR MISSION:</span>
+        </div>
+        <div
+          style={{
+            marginTop: 8,
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-around",
+            alignItems: "center"
+          }}
+        >
+          <div className="about-reg1" style={{ width: 350 }}>
+            Our organization’s purpose is to plan and host California’s most
+            talented collegiate hackers, designers, and developers, to a 24-hour
+            hackathon. We work towards giving students an environment for
+            maximum innovation, collaboration, and education.
+          </div>
+          <div>
+            <img src={missionPicture} style={{ height: 250, width: "auto" }} />
+          </div>
         </div>
       </div>
       <div style={{ marginTop: 20 }}>

@@ -70,6 +70,16 @@
   }
 }
 
+/* HomeScreen */
+.home-h1 {
+  font: normal normal bold 49px/66px Montserrat;
+  letter-spacing: 0px;
+  color: #512783;
+  opacity: 1;
+}
+
+/*  */
+/*  */
 /* about section */
 .about-profile-name {
   font-size: 18px;
@@ -86,20 +96,26 @@
   color: #ffffff;
 }
 
-.about-h1 {
-  font: normal normal bold 40px/53px "Montserrat";
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  color: #512783;
+.about-highlight {
+  background-color: #d7b5ff;
 }
+
+.about-h1 {
+  font: normal normal bold 45px/58px "Montserrat";
+  letter-spacing: 3px;
+  /* text-transform: uppercase; */
+  /* background-color: #d7b5ff; */
+  color: #000000;
+}
+
 .about-h3 {
-  font: normal normal bold 25px/39px Nunito;
-  letter-spacing: 4px;
-  color: #512783;
-  text-transform: uppercase;
+  font: normal normal bold 25px/43px "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #000000;
 }
 .about-reg1 {
-  font: normal normal 600 18px/24px Nunito;
+  font: normal normal 600 18px/24px "Montserrat";
   letter-spacing: 0px;
   color: #512783;
 }
