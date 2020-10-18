@@ -77,7 +77,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div style={{ marginTop: 20 }}>
+      {/* <div style={{ marginTop: 20 }}>
         <div className="about-h3">Meet Our Team:</div>
         <div className="about-reg1" style={{ marginTop: 8 }}>
           With our next season of SF Hacks and brand new initiative for virtual
@@ -134,7 +134,7 @@ const AboutSection = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
