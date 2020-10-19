@@ -16,7 +16,8 @@ const Navbar = () => {
           borderBottomColor: "#7a42c8",
           boxShadow: "0 4px 20px 10px RGBA(124, 67, 203, 0.5)",
           position: "fixed",
-          top: 0
+          top: 0,
+          zIndex: 1
         }}
       >
         <div style={{ marginLeft: 50 }}>
