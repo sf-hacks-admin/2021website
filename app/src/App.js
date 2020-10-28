@@ -9,6 +9,8 @@ import EventsSection from "./screens/EventsSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import SponsorsSection from "./screens/SponsorsSection";
+import FAQSection from "./screens/FAQSection";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <LandingSection />
       <EventsSection />
       <AboutSection />
+      {/* <SponsorsSection /> */}
+      {/* <FAQSection /> */}
       <Footer />
     </div>
   );
