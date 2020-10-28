@@ -111,10 +111,10 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <div style={{ margin: "40px 0" }}>
-      <div style={{}}>
+    <div style={{ margin: "60px 0" }}>
+      <div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <span style={{ textAlign: "left",   font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1 }}>Sponsors</span>
+          <span style={{ textAlign: "left",   font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1, backgroundColor:"#d7b5ff", margin:'0', padding:'0', lineHeight:'45px' }}>Sponsors</span>
         </div>
 
         <div style={{ display:'flex', alignItems:'center', justifyContent:'center', paddingTop: '20px' }}>
