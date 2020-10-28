@@ -106,29 +106,33 @@ const SponsorsSection = () => {
     },
     {
       name: "Guayaki Yerba Mate",
-      logo: YerbaMate
+      logo: YerbaMate,
     },
   ];
 
   return (
-    <div>
-      <div>
-        <span>SPONSORS</span>
-      </div>
+    <div style={{ margin: "40px 0" }}>
+      <div style={{}}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          <span style={{ textAlign: "left",   font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1 }}>Sponsors</span>
+        </div>
 
-      <div>
-        {sponsors.map(sponsor => (
-              <div key={sponsor.name} style={{ }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'center', paddingTop: '20px' }}>
+          <div style={{ maxWidth: 900, display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap' }}>
+            {sponsors.map(sponsor => (
+              <div key={sponsor.name} style={{padding:'20px'}}>
                 <div>
                   <img
                     src={sponsor.logo}
                     alt={sponsor.name}
-                    style={{ height: 120, width: "auto", borderRadius: 70 }}
+                    style={{ height: 120, width: "auto", }}
                   />
                 </div>
-                
               </div>
             ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );
