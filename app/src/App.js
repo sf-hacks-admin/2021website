@@ -19,7 +19,7 @@ function App() {
       <LandingSection />
       <EventsSection />
       <AboutSection />
-      {/* <SponsorsSection /> */}
+      <SponsorsSection />
       {/* <FAQSection /> */}
       <Footer />
     </div>
