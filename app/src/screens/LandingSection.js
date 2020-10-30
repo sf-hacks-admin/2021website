@@ -20,7 +20,7 @@ const LandingSection = () => {
         <div className="home-h1">
           <div>EDUCATE.</div>
           <div>INNOVATE.</div>
-          <div>COLLOBORATE.</div>
+          <div>COLLABORATE.</div>
         </div>
       </div>
     </div>
