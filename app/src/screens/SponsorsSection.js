@@ -6,47 +6,53 @@ import Autodesk from "../assets/sponsors/autodesk.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 import Lyft from "../assets/sponsors/lyft.png";
 import Twilio from "../assets/sponsors/twilio.png";
-import InterviewCake from "../assets/sponsors/interview-cake.png";
+// import InterviewCake from "../assets/sponsors/interview-cake.png";
 import COSE from "../assets/sponsors/cose.png";
 import COB from "../assets/sponsors/cob.png";
-import Notivize from "../assets/sponsors/notivize.png";
-import Pathrise from "../assets/sponsors/pathrise.png";
-import Desmos from "../assets/sponsors/desmos.png";
+// import Notivize from "../assets/sponsors/notivize.png";
+// import Pathrise from "../assets/sponsors/pathrise.png";
+// import Desmos from "../assets/sponsors/desmos.png";
 import Walmart from "../assets/sponsors/walmart.png";
-import Allbirds from "../assets/sponsors/allbirds.png";
+// import Allbirds from "../assets/sponsors/allbirds.png";
 import StickerMule from "../assets/sponsors/sticker-mule.png";
-import GogoSqueez from "../assets/sponsors/gogo-squeez.png";
-import Bare from "../assets/sponsors/bare.png";
+// import GogoSqueez from "../assets/sponsors/gogo-squeez.png";
+// import Bare from "../assets/sponsors/bare.png";
 import Macys from "../assets/sponsors/macys.png";
-import Bobos from "../assets/sponsors/bobos.png";
+// import Bobos from "../assets/sponsors/bobos.png";
 import Guru from "../assets/sponsors/guru.png";
-import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
+// import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
 
 const SponsorsSection = () => {
   const sponsors = [
     {
       name: "Microsoft",
       logo: Microsoft,
+      link: "https://www.microsoft.com/en-us/",
     },
     {
       name: "Google",
       logo: Google,
+      link: "https://www.google.com/?client=safari",
     },
     {
       name: "Autodesk",
       logo: Autodesk,
+      link: "https://www.autodesk.com",
     },
     {
       name: "Weight Watchers",
       logo: WeightWatchers,
+      link: "https://www.weightwatchers.com/us/",
     },
     {
       name: "Lyft",
       logo: Lyft,
+      link: "https://www.lyft.com",
     },
     {
       name: "Twilio",
       logo: Twilio,
+      link: "https://www.twilio.com",
     },
     // {
     //   name: "Interview Cake",
@@ -55,10 +61,12 @@ const SponsorsSection = () => {
     {
       name: "SFSU College of Science and Engineering",
       logo: COSE,
+      link: "https://cose.sfsu.edu",
     },
     {
       name: "SFSU Lam Family College of Business",
       logo: COB,
+      link: "https://cob.sfsu.edu",
     },
     // {
     //   name: "Notivize",
@@ -75,6 +83,7 @@ const SponsorsSection = () => {
     {
       name: "Walmart",
       logo: Walmart,
+      link: "https://www.walmart.com",
     },
     // {
     //   name: "Allbirds",
@@ -83,6 +92,7 @@ const SponsorsSection = () => {
     {
       name: "StickerMule",
       logo: StickerMule,
+      link: "https://www.stickermule.com",
     },
     // {
     //   name: "Gogo Squeez",
@@ -95,6 +105,7 @@ const SponsorsSection = () => {
     {
       name: "Macys",
       logo: Macys,
+      link: "https://www.macys.com",
     },
     // {
     //   name: "Bobos",
@@ -103,6 +114,7 @@ const SponsorsSection = () => {
     {
       name: "Guru Organic Energy",
       logo: Guru,
+      link: "https://www.guruenergy.com/en-us",
     },
     // {
     //   name: "Guayaki Yerba Mate",
@@ -122,11 +134,13 @@ const SponsorsSection = () => {
             {sponsors.map(sponsor => (
               <div key={sponsor.name} style={{padding:'20px'}}>
                 <div>
-                  <img
-                    src={sponsor.logo}
-                    alt={sponsor.name}
-                    style={{ height: 120, width: "auto", }}
-                  />
+                  <a href={sponsor.link}>
+                    <img
+                      src={sponsor.logo}
+                      alt={sponsor.name}
+                      style={{ height: 120, width: "auto", }}
+                    />
+                  </a>
                 </div>
               </div>
             ))}

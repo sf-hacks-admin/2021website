@@ -46,10 +46,10 @@ const FAQSection = () => {
       q:"Do I need a team to join?",
       a:"Not at all! While you absolutely can join the event and work on projects as a team, you can also use the event’s Discord to pair up with others on a project. It’s also okay to just work on something yourself.",
     },
-    {
-      q:"What is the cost of attendance?",
-      a:"It's a free event hosted by the SF Hacks Team at San Francisco State University."
-    },
+    // {
+    //   q:"What is the cost of attendance?",
+    //   a:"It's a free event hosted by the SF Hacks Team at San Francisco State University."
+    // },
   ];
 
   return (
