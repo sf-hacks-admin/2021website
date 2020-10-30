@@ -48,10 +48,10 @@ const SponsorsSection = () => {
       name: "Twilio",
       logo: Twilio,
     },
-    {
-      name: "Interview Cake",
-      logo: InterviewCake,
-    },
+    // {
+    //   name: "Interview Cake",
+    //   logo: InterviewCake,
+    // },
     {
       name: "SFSU College of Science and Engineering",
       logo: COSE,
@@ -60,61 +60,61 @@ const SponsorsSection = () => {
       name: "SFSU Lam Family College of Business",
       logo: COB,
     },
-    {
-      name: "Notivize",
-      logo: Notivize,
-    },
-    {
-      name: "Pathrise",
-      logo: Pathrise,
-    },
-    {
-      name: "Desmos",
-      logo: Desmos,
-    },
+    // {
+    //   name: "Notivize",
+    //   logo: Notivize,
+    // },
+    // {
+    //   name: "Pathrise",
+    //   logo: Pathrise,
+    // },
+    // {
+    //   name: "Desmos",
+    //   logo: Desmos,
+    // },
     {
       name: "Walmart",
       logo: Walmart,
     },
-    {
-      name: "Allbirds",
-      logo: Allbirds,
-    },
+    // {
+    //   name: "Allbirds",
+    //   logo: Allbirds,
+    // },
     {
       name: "StickerMule",
       logo: StickerMule,
     },
-    {
-      name: "Gogo Squeez",
-      logo: GogoSqueez,
-    },
-    {
-      name: "Bare",
-      logo: Bare,
-    },
+    // {
+    //   name: "Gogo Squeez",
+    //   logo: GogoSqueez,
+    // },
+    // {
+    //   name: "Bare",
+    //   logo: Bare,
+    // },
     {
       name: "Macys",
       logo: Macys,
     },
-    {
-      name: "Bobos",
-      logo: Bobos,
-    },
+    // {
+    //   name: "Bobos",
+    //   logo: Bobos,
+    // },
     {
       name: "Guru Organic Energy",
       logo: Guru,
     },
-    {
-      name: "Guayaki Yerba Mate",
-      logo: YerbaMate,
-    },
+    // {
+    //   name: "Guayaki Yerba Mate",
+    //   logo: YerbaMate,
+    // },
   ];
 
   return (
     <div style={{ margin: "60px 0" }}>
       <div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <span style={{ textAlign: "left",   font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1, backgroundColor:"#d7b5ff", margin:'0', padding:'0', lineHeight:'45px' }}>Sponsors</span>
+          <span style={{ textAlign: "left",   font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1, backgroundColor:"#d7b5ff", margin:'0', padding:'0', lineHeight:'45px' }}>Past Sponsors</span>
         </div>
 
         <div style={{ display:'flex', alignItems:'center', justifyContent:'center', paddingTop: '20px' }}>
