@@ -38,8 +38,8 @@
   color: #ffffff;
 }
 .footer-main-container {
-  margin-top: 10px;
-  height: 100px;
+  /* margin-top: 10px; */
+  /* height: 100px; */
   padding-bottom: 20px;
   text-align: center;
   display: flex;
@@ -47,7 +47,7 @@
   align-content: flex-end;
   justify-content: center;
 
-  background-image: url("./assets/Footer.png");
+  /* background-image: url("./assets/Footer.png"); */
   background-repeat: repeat no-repeat;
   background-size: auto 98%;
 }
