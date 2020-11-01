@@ -1,13 +1,19 @@
 import React from "react";
+import Accordion from "../components/Accordion";
+import '../styles/FAQSection.css'
 
 const FAQSection = () => {
   const faqs = [
+    {
+      q:"What is a hackathon?",
+      a:"A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. The participants work rapidly and often work in groups to achieve their tasks.",
+    },
     {
       q: "Why should I attend a virtual hackathon?",
       a: "We know a virtual hackathon might sound unorthodox, but we ensure it will be worth your while to join! From our contests to the lighthearted games, there is a place for every gator to contribute. It’ll also be a great chance to try out working on a project with a team remotely.",
     },
     {
-      q:"Do you need to know how to code to attend?",
+      q:"Do I need to know how to code to attend?",
       a:"No prior knowledge of computer science is needed! We encourage all levels of coders to attend. In our events, we dedicate officers/mentors/tutors to help all hackers find their beginnings in CS.",
     },
     // {
@@ -19,19 +25,11 @@ const FAQSection = () => {
       a:"To cope with the current climate, we have decided to cancel our March 2020 hackathon and postpone it to the Spring of 2021. It will be virtual but will be our most unique one yet.",
     },
     {
-      q:"Where can I contact the officers?",
-      a:"You can email us at sfhacksteam@gmail.com. If it’s urgent, join our Discord (https://discord.gg/7RMDcNU) and send us a message. One of us will help within 24 hours!",
-    },
-    {
-      q:"What is a hackathon?",
-      a:"A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. The participants work rapidly and often work in groups to achieve their tasks.",
-    },
-    {
       q:"Is the hackathon free, and what will be provided?",
       a:"For our upcoming virtual hackathon, admission is still free of charge, however, food will not be provided. There are things we can offer such as the enjoyable virtual experience through Discord as well as chatting with other fellow hackers!",
     },
     {
-      q:"How often are SFSU hackathons?",
+      q:"How often are SFSU hackathons held?",
       a:"SFSU hosts hackathons annually and everyone is invited to create the best experience possible!",
     },
     {
@@ -50,6 +48,10 @@ const FAQSection = () => {
     //   q:"What is the cost of attendance?",
     //   a:"It's a free event hosted by the SF Hacks Team at San Francisco State University."
     // },
+    {
+      q:"Where can I contact the officers?",
+      a:"You can email us at sfhacksteam@gmail.com. If it’s urgent, join our Discord (https://discord.gg/7RMDcNU) and send us a message. One of us will help within 24 hours!",
+    },
   ];
 
   return (
@@ -59,7 +61,12 @@ const FAQSection = () => {
       </div>
 
       <div>
-
+        {faqs.map(faq => (
+          <div key={faq.q}>
+            <Accordion q={faq.q} a={faq.a} />
+            <hr style={{margin:'0 200px', color:'#F5F5F5', opacity:'50%'}}/>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -1,0 +1,43 @@
+.accordion-section {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 200px;
+}
+
+.accordion-title {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  /* transition: background-color 0.3s ease; */
+}
+
+/* .accordion-title:hover,
+.active {
+  background-color: #ccc;
+} */
+
+.accordion-icon {
+  margin-right: 20px;
+  transition: transform 0.12s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+  margin: 0 35px;
+}
+
+.accordion-text {
+  font-family:'montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
