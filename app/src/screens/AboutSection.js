@@ -1,12 +1,13 @@
 import React from "react";
 
 import AmanProfileImage from "../assets/teamProfile/Aman.png";
+import BrendaProfileImage from "../assets/teamProfile/Brenda.png";
 import JainamProfileImage from "../assets/teamProfile/Jainam.png";
 import JohanaProfileImage from "../assets/teamProfile/Johana.png";
 import JohnathanProfileImage from "../assets/teamProfile/Johnathan.png";
 import KevinProfileImage from "../assets/teamProfile/Kevin.png";
 import LeishaProfileImage from "../assets/teamProfile/Leisha.png";
-import MeghaProfileImage from "../assets/teamProfile/Megha.png";
+// import MeghaProfileImage from "../assets/teamProfile/Megha.png";
 import NyaProfileImage from "../assets/teamProfile/Nya.png";
 import OrionProfileImage from "../assets/teamProfile/Orion.png";
 
@@ -17,11 +18,11 @@ import "../styles/AboutSection.css";
 const AboutSection = () => {
   const profiles = [
     { name: "Leisha Murthy", position: "President", image: LeishaProfileImage },
-    {
-      name: "Megha Babariya",
-      position: "Vice President",
-      image: MeghaProfileImage
-    },
+    // {
+    //   name: "Megha Babariya",
+    //   position: "Vice President",
+    //   image: MeghaProfileImage
+    // },
     { name: "Kevin Manago", position: "Treasurer", image: KevinProfileImage },
     {
       name: "Orion Culbertson",
@@ -38,7 +39,16 @@ const AboutSection = () => {
       position: "Sponshorship Lead",
       image: NyaProfileImage
     },
-    { name: "Aman Kumar", position: "Design Lead", image: AmanProfileImage },
+    { 
+      name: "Aman Kumar", 
+      position: "Design Lead", 
+      image: AmanProfileImage 
+    },
+    { 
+      name: "Brenda Yau", 
+      position: "Designer/Developer", 
+      image: BrendaProfileImage 
+    },
     {
       name: "Jainam Shah",
       position: "Web Developer",
