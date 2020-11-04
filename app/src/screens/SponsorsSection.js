@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/SponsorsSection.css'
 
 // import Allbirds from "../assets/sponsors/allbirds.png";
 import Autodesk from "../assets/sponsors/autodesk.png";
@@ -122,22 +123,22 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <div style={{ margin: "60px 0" }}>
+    <div className="sponsors-container">
       <div>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <span style={{ textAlign: "left",   font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1, backgroundColor:"#d7b5ff", margin:'0', padding:'0', lineHeight:'45px' }}>Past Sponsors</span>
+        <div className="title">
+          <span className="title-text">Past Sponsors</span>
         </div>
 
-        <div style={{ display:'flex', alignItems:'center', justifyContent:'center', paddingTop: '20px' }}>
-          <div style={{ maxWidth: 900, display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <div className="sponsor-content-container">
+          <div className="sponsor-content-inner">
             {sponsors.map(sponsor => (
-              <div key={sponsor.name} style={{padding:'20px'}}>
+              <div key={sponsor.name} className="sponsor-padding">
                 <div>
                   <a href={sponsor.link}>
                     <img
                       src={sponsor.logo}
                       alt={sponsor.name}
-                      style={{ height: 120, width: "auto", }}
+                      className="img-style"
                     />
                   </a>
                 </div>
