@@ -1,25 +1,24 @@
 import React from "react";
 
-import Microsoft from "../assets/sponsors/msft.png";
-import Google from "../assets/sponsors/google.png";
+// import Allbirds from "../assets/sponsors/allbirds.png";
 import Autodesk from "../assets/sponsors/autodesk.png";
-import WeightWatchers from "../assets/sponsors/weight-watchers.png";
-import Lyft from "../assets/sponsors/lyft.png";
-import Twilio from "../assets/sponsors/twilio.png";
-// import InterviewCake from "../assets/sponsors/interview-cake.png";
+// import Bare from "../assets/sponsors/bare.png";
+// import Bobos from "../assets/sponsors/bobos.png";
 import COSE from "../assets/sponsors/cose.png";
-import COB from "../assets/sponsors/cob.png";
+import COB from "../assets/sponsors/cob.png";// import Desmos from "../assets/sponsors/desmos.png";
+// import GogoSqueez from "../assets/sponsors/gogo-squeez.png";
+import Google from "../assets/sponsors/google.png";
+import Guru from "../assets/sponsors/guru.png";
+// import InterviewCake from "../assets/sponsors/interview-cake.png";
+import Lyft from "../assets/sponsors/lyft.png";
+import Macys from "../assets/sponsors/macys.png";
+import Microsoft from "../assets/sponsors/msft.png";
 // import Notivize from "../assets/sponsors/notivize.png";
 // import Pathrise from "../assets/sponsors/pathrise.png";
-// import Desmos from "../assets/sponsors/desmos.png";
-import Walmart from "../assets/sponsors/walmart.png";
-// import Allbirds from "../assets/sponsors/allbirds.png";
 import StickerMule from "../assets/sponsors/sticker-mule.png";
-// import GogoSqueez from "../assets/sponsors/gogo-squeez.png";
-// import Bare from "../assets/sponsors/bare.png";
-import Macys from "../assets/sponsors/macys.png";
-// import Bobos from "../assets/sponsors/bobos.png";
-import Guru from "../assets/sponsors/guru.png";
+import Twilio from "../assets/sponsors/twilio.png";
+import Walmart from "../assets/sponsors/walmart.png";
+import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 // import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
 
 const SponsorsSection = () => {
