@@ -55,16 +55,16 @@ const FAQSection = () => {
   ];
 
   return (
-    <div style={{ marginTop: '60px' }}>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <span style={{ textAlign: "left", font: "normal normal bold 45px/74px \"Montserrat\"", letterSpacing: '0', color: '#000', opacity: 1, backgroundColor: "#d7b5ff", margin: '0', padding: '0', lineHeight: '45px' }}>FAQs</span>
+    <div className="faq-container">
+      <div className="title">
+        <span className="title-text">FAQs</span>
       </div>
 
       <div>
         {faqs.map(faq => (
           <div key={faq.q}>
             <Accordion q={faq.q} a={faq.a} />
-            <hr style={{margin:'0 200px', color:'#F5F5F5', opacity:'50%'}}/>
+            <hr className="faq-hr"/>
           </div>
         ))}
       </div>

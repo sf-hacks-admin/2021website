@@ -1,3 +1,31 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  text-align: left;
+  font: normal normal bold 45px/74px "Montserrat";
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-color: #d7b5ff;
+  margin: 0;
+  padding: 0;
+  line-height: 45px;
+}
+
+.faq-container {
+  margin-top: 60px;
+}
+
+.faq-hr {
+  margin: 0 200px;
+  color: #f5f5f5;
+  opacity: 50%;
+}
+
 .accordion-section {
   display: flex;
   flex-direction: column;
@@ -41,3 +69,5 @@
   font-weight: 400;
   font-size: 14px;
 }
+
+
