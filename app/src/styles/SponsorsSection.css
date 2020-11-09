@@ -1,0 +1,45 @@
+.sponsors-container {
+  margin: 60px 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  text-align: left;
+  font: normal normal bold 45px/74px "Montserrat";
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-color: #d7b5ff;
+  margin: 0;
+  padding: 0;
+  line-height: 45px;
+}
+
+.sponsor-content-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.sponsor-content-inner {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsor-padding {
+  padding: 20px;
+}
+
+.img-style {
+  height: 120px;
+  width: auto;
+}

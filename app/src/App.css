@@ -2,14 +2,15 @@
 
 .logo {
   width: auto;
-  height: 300px;
+  height: 450px;
 }
 /* lp - landing page */
 #lp-main-container {
   min-height: 300px;
+  height: 95vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
 
@@ -34,7 +35,21 @@
   font-size: 12px;
   font-family: "Nunito";
   font-weight: 600;
-  color: #512783;
+  color: #ffffff;
+}
+.footer-main-container {
+  /* margin-top: 10px; */
+  /* height: 100px; */
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: center;
+
+  /* background-image: url("./assets/Footer.png"); */
+  background-repeat: repeat no-repeat;
+  background-size: auto 98%;
 }
 
 @media only screen and (max-width: 950px) {
@@ -43,7 +58,7 @@
   }
 
   .logo {
-    height: 200px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -51,6 +66,37 @@
     font-size: 20px;
   }
   .logo {
-    height: 150px;
+    height: 300px;
   }
+}
+
+/* HomeScreen */
+.home-h1 {
+  font: normal normal bold 49px/66px Montserrat;
+  letter-spacing: 0px;
+  color: #512783;
+  opacity: 1;
+}
+
+/*  */
+/*  */
+
+/* unvisited link */
+a:link {
+  color: #512783;
+}
+
+/* visited link */
+a:visited {
+  color: #512783;
+}
+
+/* mouse over link */
+a:hover {
+  color: #73529b;
+}
+
+/* selected link */
+a:active {
+  color: #512783;
 }
