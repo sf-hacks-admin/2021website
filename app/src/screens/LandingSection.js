@@ -2,27 +2,37 @@ import React from "react";
 import SFHACKs_logo from "../assets/SF_Hacks_Logo.png";
 const LandingSection = () => {
   return (
-    <div>
+    <div
+      style={{
+        minHeight: "100vh",
+        marginTop: -50,
+        marginBottom: 50,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center"
+      }}
+    >
       <div
         style={{
-          marginTop: -50,
-          height: "100vh",
-          minHeight: 500,
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
-          alignItems: "center"
+          alignItems: "center",
+          alignContent: "center",
+          flexWrap: "wrap"
         }}
       >
-        <div style={{ marginRight: 50 }}>
-          <img src={SFHACKs_logo} style={{ height: 450, width: "auto" }} />
+        <div>
+          <img src={SFHACKs_logo} className="landingSec-image" />
         </div>
-        <div className="home-h1">
+        <div className="landingSec-h1">
           <div>EDUCATE.</div>
           <div>INNOVATE.</div>
           <div>COLLABORATE.</div>
         </div>
       </div>
+      {/* <div style={{ position: "absolute", bottom: 10 }}>buttton</div> */}
     </div>
   );
 };

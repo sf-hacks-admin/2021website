@@ -71,12 +71,6 @@
 }
 
 /* HomeScreen */
-.home-h1 {
-  font: normal normal bold 49px/66px Montserrat;
-  letter-spacing: 0px;
-  color: #512783;
-  opacity: 1;
-}
 
 /*  */
 /*  */
@@ -99,4 +93,31 @@ a:hover {
 /* selected link */
 a:active {
   color: #512783;
+}
+
+.landingSec-image {
+  height: auto;
+  min-width: 450px;
+  width: 30vw;
+  max-width: 600px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.landingSec-h1 {
+  font: normal normal bold 49px/66px Montserrat;
+  letter-spacing: 0px;
+  color: #512783;
+  opacity: 1;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .landingSec-image {
+    width: 300px;
+    min-width: 300px;
+    padding: 0;
+  }
+  .landingSec-h1 {
+    font: normal normal bold 35px/52px Montserrat;
+    
+  }
 }
