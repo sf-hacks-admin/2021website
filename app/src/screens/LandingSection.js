@@ -6,7 +6,7 @@ const LandingSection = () => {
       style={{
         minHeight: "100vh",
         marginTop: -50,
-        marginBottom: 50,
+        marginBottom: 100,
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

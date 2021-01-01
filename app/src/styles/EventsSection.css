@@ -13,11 +13,11 @@
   margin-top: 20px;
   background: transparent linear-gradient(90deg, #8446d2 0%, #6a3ab7 100%) 0% 0%
     no-repeat padding-box;
-  border: 1px solid #707070;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 50px 50px 50px 50px;
 }
 
 .innerContainer {
@@ -40,8 +40,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
-  background-color: #d7d7d7;
+  background-color: #f3f3f3;
 }
 
 .eventTitle {

@@ -37,6 +37,14 @@ const EventsSection = () => {
           slidesToShow: 1,
           slidesToScroll: 1
         }
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
     ],
     beforeChange: (current, next) => {
@@ -49,10 +57,10 @@ const EventsSection = () => {
   };
   return (
     <div>
-      <div style={{ textAlign: "center" }}>
-        <span className="headingText1 highlight">Events</span>
-      </div>
       <div className="container">
+        <div style={{ textAlign: "center", marginBottom: 50 }}>
+          <span className="headingText1">Events</span>
+        </div>
         <div className="innerContainer">
           <Slider {...settings}>
             {events.map((event, i) => (
@@ -72,6 +80,10 @@ const EventsSection = () => {
                       opacity: currentEvent === i ? "1.0" : "0.2"
                     }}
                   >
+                    {/* <img
+                      src={require("../assets/cardimage.png")}
+                      style={{ width: "80%", height: "auto" }}
+                    /> */}
                     <div className="eventTitle">{event.title}</div>
                     <div className="eventDate">{event.date}</div>
                     <div>{event.time}</div>
