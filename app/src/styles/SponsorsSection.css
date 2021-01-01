@@ -14,14 +14,14 @@
   letter-spacing: 0;
   color: #000;
   opacity: 1;
-  background-color: #d7b5ff;
+
   margin: 0;
   padding: 0;
   line-height: 45px;
 }
 
 .sponsor-content-container {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20px;

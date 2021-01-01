@@ -1,12 +1,12 @@
 import React from "react";
-import '../styles/SponsorsSection.css'
+import "../styles/SponsorsSection.css";
 
 // import Allbirds from "../assets/sponsors/allbirds.png";
 import Autodesk from "../assets/sponsors/autodesk.png";
 // import Bare from "../assets/sponsors/bare.png";
 // import Bobos from "../assets/sponsors/bobos.png";
 import COSE from "../assets/sponsors/cose.png";
-import COB from "../assets/sponsors/cob.png";// import Desmos from "../assets/sponsors/desmos.png";
+import COB from "../assets/sponsors/cob.png"; // import Desmos from "../assets/sponsors/desmos.png";
 // import GogoSqueez from "../assets/sponsors/gogo-squeez.png";
 import Google from "../assets/sponsors/google.png";
 import Guru from "../assets/sponsors/guru.png";
@@ -27,32 +27,32 @@ const SponsorsSection = () => {
     {
       name: "Microsoft",
       logo: Microsoft,
-      link: "https://www.microsoft.com/en-us/",
+      link: "https://www.microsoft.com/en-us/"
     },
     {
       name: "Google",
       logo: Google,
-      link: "https://www.google.com/?client=safari",
+      link: "https://www.google.com/?client=safari"
     },
     {
       name: "Autodesk",
       logo: Autodesk,
-      link: "https://www.autodesk.com",
+      link: "https://www.autodesk.com"
     },
     {
       name: "Weight Watchers",
       logo: WeightWatchers,
-      link: "https://www.weightwatchers.com/us/",
+      link: "https://www.weightwatchers.com/us/"
     },
     {
       name: "Lyft",
       logo: Lyft,
-      link: "https://www.lyft.com",
+      link: "https://www.lyft.com"
     },
     {
       name: "Twilio",
       logo: Twilio,
-      link: "https://www.twilio.com",
+      link: "https://www.twilio.com"
     },
     // {
     //   name: "Interview Cake",
@@ -61,12 +61,12 @@ const SponsorsSection = () => {
     {
       name: "SFSU College of Science and Engineering",
       logo: COSE,
-      link: "https://cose.sfsu.edu",
+      link: "https://cose.sfsu.edu"
     },
     {
       name: "SFSU Lam Family College of Business",
       logo: COB,
-      link: "https://cob.sfsu.edu",
+      link: "https://cob.sfsu.edu"
     },
     // {
     //   name: "Notivize",
@@ -83,7 +83,7 @@ const SponsorsSection = () => {
     {
       name: "Walmart",
       logo: Walmart,
-      link: "https://www.walmart.com",
+      link: "https://www.walmart.com"
     },
     // {
     //   name: "Allbirds",
@@ -92,7 +92,7 @@ const SponsorsSection = () => {
     {
       name: "StickerMule",
       logo: StickerMule,
-      link: "https://www.stickermule.com",
+      link: "https://www.stickermule.com"
     },
     // {
     //   name: "Gogo Squeez",
@@ -105,7 +105,7 @@ const SponsorsSection = () => {
     {
       name: "Macys",
       logo: Macys,
-      link: "https://www.macys.com",
+      link: "https://www.macys.com"
     },
     // {
     //   name: "Bobos",
@@ -114,8 +114,8 @@ const SponsorsSection = () => {
     {
       name: "Guru Organic Energy",
       logo: Guru,
-      link: "https://www.guruenergy.com/en-us",
-    },
+      link: "https://www.guruenergy.com/en-us"
+    }
     // {
     //   name: "Guayaki Yerba Mate",
     //   logo: YerbaMate,
@@ -126,7 +126,7 @@ const SponsorsSection = () => {
     <div className="sponsors-container">
       <div>
         <div className="title">
-          <span className="title-text">Past Sponsors</span>
+          <span className="headingText1">Past Sponsors</span>
         </div>
 
         <div className="sponsor-content-container">
@@ -146,10 +146,9 @@ const SponsorsSection = () => {
             ))}
           </div>
         </div>
-
       </div>
     </div>
   );
-}
+};
 
 export default SponsorsSection;
