@@ -86,7 +86,7 @@ const TracksSection = props => {
   ];
   return (
     <div
-      className="mainContainer-1"
+      className="mainContainer-1 background-img-1 "
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
       <div className="heading-1" style={{ textAlign: "center" }}>

@@ -23,6 +23,7 @@ a:active {
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+  margin-bottom: 50px;
 }
 
 .heading-2 {
@@ -52,13 +53,21 @@ a:active {
   color: #000000;
   opacity: 1;
 }
+
 .mainContainer-1 {
   padding: 50px;
+  padding-top: 250px;
+}
+
+.background-img-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 600px) {
   .mainContainer-1 {
     padding: 20px;
+    padding-top: 250px;
   }
 }
 @media only screen and (max-width: 950px) {
