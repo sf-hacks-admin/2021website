@@ -21,7 +21,6 @@ a:active {
 .heading-1 {
   font: italic normal bold 80px/97px Montserrat;
   letter-spacing: 0px;
-  color: #000000;
   opacity: 1;
   margin-bottom: 50px;
 }
@@ -29,28 +28,24 @@ a:active {
 .heading-2 {
   font: italic normal bold 50px/61px Montserrat;
   letter-spacing: 0px;
-  color: #000000;
   opacity: 1;
 }
 
 .heading-3 {
   font: italic normal bold 38px/55px Open Sans;
   letter-spacing: 0px;
-  color: #000000;
   opacity: 1;
 }
 
 .reg-1 {
   font: normal normal normal 30px/60px Open Sans;
   letter-spacing: 0px;
-  color: #000000;
   opacity: 1;
 }
 
 .reg-2 {
   font: normal normal normal 19px/31px Open Sans;
   letter-spacing: 0px;
-  color: #000000;
   opacity: 1;
 }
 
