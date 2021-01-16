@@ -4,7 +4,7 @@ import instagramIcon from '../assets/Instagram_Icon.svg';
 import twitterIcon from '../assets/Twitter_Icon.svg';
 import linkedinIcon from '../assets/LinkedIn_Icon.svg';
 import discordIcon from '../assets/Discord_Icon.svg'
-
+import "../styles/Footer.css"
 const Footer = () => {
   const socials = [
     {

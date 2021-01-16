@@ -1,0 +1,20 @@
+.footer-text {
+  font-size: 12px;
+  font-family: "Nunito";
+  font-weight: 600;
+  color: #ffffff;
+}
+.footer-main-container {
+  /* margin-top: 10px; */
+  /* height: 100px; */
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: center;
+
+  /* background-image: url("./assets/Footer.png"); */
+  background-repeat: repeat no-repeat;
+  background-size: auto 98%;
+}

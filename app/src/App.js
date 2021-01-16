@@ -17,10 +17,11 @@ function App() {
     <div>
       <Navbar />
       <LandingSection />
-      <EventsSection />
       <AboutSection />
+      <div>here</div>
       <FAQSection />
       <SponsorsSection />
+      <EventsSection />
       <Footer />
     </div>
   );

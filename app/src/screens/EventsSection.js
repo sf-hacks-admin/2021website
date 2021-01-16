@@ -59,7 +59,7 @@ const EventsSection = () => {
     <div>
       <div className="container">
         <div style={{ textAlign: "center", marginBottom: 50 }}>
-          <span className="headingText1">Events</span>
+          <span className="headingText1">Past Events</span>
         </div>
         <div className="innerContainer">
           <Slider {...settings}>
