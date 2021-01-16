@@ -11,6 +11,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import SponsorsSection from "./screens/SponsorsSection";
 import FAQSection from "./screens/FAQSection";
+import TracksSection from "./screens/TracksSection";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Navbar />
       <LandingSection />
       <AboutSection />
-      <div>here</div>
+      <TracksSection />
       <FAQSection />
       <SponsorsSection />
       <EventsSection />

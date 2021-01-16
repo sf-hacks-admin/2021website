@@ -33,7 +33,7 @@ a:active {
 }
 
 .heading-3 {
-  font: italic normal bold 48px/65px Open Sans;
+  font: italic normal bold 38px/55px Open Sans;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -47,13 +47,19 @@ a:active {
 }
 
 .reg-2 {
-  font: normal normal normal 24px/36px Open Sans;
+  font: normal normal normal 19px/31px Open Sans;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
 }
+.mainContainer-1 {
+  padding: 50px;
+}
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
+  .mainContainer-1 {
+    padding: 20px;
+  }
 }
 @media only screen and (max-width: 950px) {
   .logo {
