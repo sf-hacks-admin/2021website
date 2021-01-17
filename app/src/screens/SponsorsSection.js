@@ -123,7 +123,7 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <div className="sponsors-container">
+    <div className="sponsors-container" id="ourSponsors">
       <div>
         <div className="title">
           <span className="headingText1">Past Sponsors</span>
