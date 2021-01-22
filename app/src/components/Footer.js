@@ -3,7 +3,8 @@ import facebookIcon from '../assets/Facebook_Icon.svg';
 import instagramIcon from '../assets/Instagram_Icon.svg';
 import twitterIcon from '../assets/Twitter_Icon.svg';
 import linkedinIcon from '../assets/LinkedIn_Icon.svg';
-import discordIcon from '../assets/Discord_Icon.svg'
+import discordIcon from '../assets/Discord_Icon.svg';
+
 import "../styles/Footer.css"
 const Footer = () => {
   const socials = [
@@ -35,7 +36,7 @@ const Footer = () => {
   ];
 
   return (
-    <div style={{background:'black', padding:'30px 0'}}>
+    <div style={{background: "#240246" ,padding:'30px 0'}}>
       <div style={{ display: 'flex', width:'350px', margin:'0 auto'}}>
         {socials.map( social => (
           <div key={social.name}>
