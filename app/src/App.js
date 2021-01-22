@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <LandingSection /> */}
+      <LandingSection />
       <AboutSection />
       <TracksSection />
       <FAQSection />
