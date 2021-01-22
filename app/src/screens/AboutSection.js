@@ -66,9 +66,9 @@ const AboutSection = () => {
         <span className="highlight">About</span>
       </div>
       <div style={{ marginTop: 50 }}>
-        <div className="headingText2">
+        {/* <div className="headingText2">
           <span className="highlight">OUR MISSION</span>
-        </div>
+        </div> */}
         <div
           style={{
             marginTop: 20,
@@ -81,12 +81,12 @@ const AboutSection = () => {
         >
           <div
             className="descriptionText"
-            style={{ width: 380, marginBottom: 20 }}
+            style={{ width: 400, marginBottom: 20 }}
           >
             Welcome to SF Hacks 2021: Life Hacks! This is our first virtual hackathon and we can’t wait to produce a brand new experience for our hackers. The event will highlight the new ideologies we developed through this pandemic. We believe that in times of chaos, there is opportunity. Let’s develop programs, build applications, and find solutions to change our society for the better.
           </div>
           <div>
-            <img src={aboutPicture} style={{ height: 250, width: "auto" }} />
+            <img src={aboutPicture} style={{ height: 350, width: "auto" }} />
           </div>
         </div>
       </div>
