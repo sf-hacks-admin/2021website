@@ -7,9 +7,11 @@ import JohanaProfileImage from "../assets/teamProfile/Johana.png";
 import JohnathanProfileImage from "../assets/teamProfile/Johnathan.png";
 import KevinProfileImage from "../assets/teamProfile/Kevin.png";
 import LeishaProfileImage from "../assets/teamProfile/Leisha.png";
+import HimanshuProfileImage from "../assets/teamProfile/Himanshu.png";
 // import MeghaProfileImage from "../assets/teamProfile/Megha.png";
 import NyaProfileImage from "../assets/teamProfile/Nya.png";
 import OrionProfileImage from "../assets/teamProfile/Orion.png";
+import DenisProfileImage from "../assets/teamProfile/Denis.png";
 
 import aboutPicture from "../assets/aboutSection/about-pic.png";
 
@@ -58,6 +60,14 @@ const AboutSection = () => {
       name: "Johana Matute",
       position: "Marketing Lead",
       image: JohanaProfileImage
+    },
+    { name: "Himanshu Garg",
+      position: "Web Developer", 
+      image: HimanshuProfileImage 
+    },
+    { name: "Denis Makhlin",
+      position: "Graphic Designer", 
+      image: DenisProfileImage 
     }
   ];
   return (
@@ -117,7 +127,7 @@ const AboutSection = () => {
                 <div>
                   <img
                     src={profile.image}
-                    style={{ height: 140, width: 140, borderRadius: 70 }}
+                    style={{ height: 120, width: 120, borderRadius: 70 }}
                   />
                 </div>
                 <div className="profileName" style={{ marginTop: 6 }}>
