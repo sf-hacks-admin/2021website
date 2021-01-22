@@ -11,7 +11,7 @@ import LeishaProfileImage from "../assets/teamProfile/Leisha.png";
 import NyaProfileImage from "../assets/teamProfile/Nya.png";
 import OrionProfileImage from "../assets/teamProfile/Orion.png";
 
-import missionPicture from "../assets/mission.png";
+import aboutPicture from "../assets/aboutSection/about-pic.png";
 
 import "../styles/AboutSection.css";
 
@@ -63,7 +63,7 @@ const AboutSection = () => {
   return (
     <div style={{ paddingRight: "10%", paddingLeft: "10%", marginTop: 50 }}>
       <div className="headingText1" style={{ textAlign: "center" }}>
-        <span className="highlight">About Us</span>
+        <span className="highlight">About</span>
       </div>
       <div style={{ marginTop: 50 }}>
         <div className="headingText2">
@@ -83,13 +83,10 @@ const AboutSection = () => {
             className="descriptionText"
             style={{ width: 380, marginBottom: 20 }}
           >
-            Our organization’s purpose is to plan and host California’s most
-            talented collegiate hackers, designers, and developers, to a 24-hour
-            hackathon. We work towards giving students an environment for
-            maximum innovation, collaboration, and education.
+            Welcome to SF Hacks 2021: Life Hacks! This is our first virtual hackathon and we can’t wait to produce a brand new experience for our hackers. The event will highlight the new ideologies we developed through this pandemic. We believe that in times of chaos, there is opportunity. Let’s develop programs, build applications, and find solutions to change our society for the better.
           </div>
           <div>
-            <img src={missionPicture} style={{ height: 250, width: "auto" }} />
+            <img src={aboutPicture} style={{ height: 250, width: "auto" }} />
           </div>
         </div>
       </div>
