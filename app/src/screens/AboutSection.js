@@ -14,6 +14,7 @@ import OrionProfileImage from "../assets/teamProfile/Orion.png";
 import DenisProfileImage from "../assets/teamProfile/Denis.png";
 
 import aboutPicture from "../assets/aboutSection/about-pic.png";
+import aboutBackground from "../assets/aboutSection/about-bg.svg";
 
 import "../styles/AboutSection.css";
 
@@ -71,7 +72,7 @@ const AboutSection = () => {
     }
   ];
   return (
-    <div style={{ paddingRight: "10%", paddingLeft: "10%", marginTop: 50 }}>
+    <div style={{ paddingRight: "10%", paddingLeft: "10%", marginTop: 50, backgroundImage: `url(${aboutBackground})` }}>
       <div className="headingText1" style={{ textAlign: "center" }}>
         <span className="highlight">About</span>
       </div>
