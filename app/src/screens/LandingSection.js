@@ -3,10 +3,12 @@ import SFHACKs_logo from "../assets/SF_Hacks_Logo.png";
 import backgrounfImg from "../assets/landingSection/background.png";
 import SFHacksLogo from "../assets/landingSection/SFHacksLogo.png";
 import { Button } from "@material-ui/core";
+import withWidth from "@material-ui/core/withWidth";
 
 import "../styles/LandingSection.css";
 
-const LandingSection = () => {
+const LandingSection = props => {
+  console.log(props);
   return (
     // <div
     //   style={{
@@ -40,51 +42,21 @@ const LandingSection = () => {
     //   </div>
     //   {/* <div style={{ position: "absolute", bottom: 10 }}>buttton</div> */}
     // </div>
-    <div
-      style={{
-        minHeight: "calc(100vh - 80px)",
-        marginBottom: 100,
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundImage: `url(${backgrounfImg})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat"
-      }}
-    >
-      <img
-        src={SFHacksLogo}
-        style={{ marginBottom: 20, height: 340, width: "auto" }}
-      />
+    <div className="landing-parent-container">
+      <img src={SFHacksLogo} className="landing-img-logo " />
+
       <div className="landing-font-1" style={{ marginBottom: 20 }}>
-        San Francisco's largest collegiate hackathon.
+        San Francisco's
+        {(props.width === "xs" || props.width === "sm") && <br />} largest
+        collegiate hackathon.
       </div>
-      <div
-        className="landing-font-2"
-        style={{
-          marginBottom: 20,
-          padding: 10,
-          paddingLeft: 20,
-          paddingRight: 20,
-          backgroundColor: "#F5EDFF",
-          borderRadius: 25
-        }}
-      >
-        March 5-7, 2021 // fully virtual
+      <div className="landing-font-2">
+        March 5-7, 2021{" "}
+        {(props.width === "xs" || props.width === "sm") && <br />}// fully
+        virtual
       </div>
 
-      <Button
-        variant="contained"
-        className="button-font-1"
-        style={{
-          marginBottom: 20,
-          padding: "15px 60px",
-          backgroundColor: "#6b3ab9",
-          borderRadius: 40
-        }}
-      >
+      <Button variant="contained" className="landing-button-font-1">
         APPLY NOW
       </Button>
       <div className="landing-font-3">
@@ -94,4 +66,4 @@ const LandingSection = () => {
   );
 };
 
-export default LandingSection;
+export default withWidth()(LandingSection);

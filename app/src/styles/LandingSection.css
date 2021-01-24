@@ -12,6 +12,12 @@
   letter-spacing: 2.05px;
   color: #2b173f;
   opacity: 1;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f5edff;
+  border-radius: 25px;
 }
 
 .landing-font-3 {
@@ -23,10 +29,78 @@
   opacity: 1;
 }
 
-.button-font-1 {
-  text-align: center;
+.landing-button-font-1 {
+  text-align: center !important;
   font: italic normal bold 25px/30px Montserrat !important;
   letter-spacing: 2.05px !important;
   color: #ffffff !important;
-  opacity: 1;
+  opacity: 1 !important;
+  margin-bottom: 20px !important;
+  padding: 15px 60px !important;
+  background-color: #6b3ab9 !important;
+  border-radius: 40px !important;
+}
+
+.landing-parent-container {
+  min-height: calc(100vh - 80px);
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../assets/landingSection/background.png");
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.landing-img-logo {
+  margin-bottom: 20px;
+  height: 400px;
+  width: auto;
+}
+
+@media only screen and (max-width: 690px) {
+  .landing-font-1 {
+    font: italic normal bold 25px/30px Montserrat;
+  }
+  .landing-font-2 {
+    font: italic normal bold 30px/40px Montserrat;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .landing-font-3 {
+    font: normal normal normal 18px/23px Open Sans;
+  }
+  .landing-button-font-1 {
+    font: italic normal bold 20px/25px Montserrat !important;
+    padding: 15px 60px;
+  }
+  .landing-parent-container {
+    background-image: url("../assets/landingSection/background.png");
+  }
+  .landing-img-logo {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .landing-font-2 {
+    font: italic normal bold 25px/35px Montserrat;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .landing-button-font-1 {
+    font: italic normal bold 18px/23px Montserrat !important;
+    padding: 15px 60px;
+  }
+  .landing-img-logo {
+    margin-bottom: 20px;
+    height: 320px;
+    width: auto;
+  }
 }
