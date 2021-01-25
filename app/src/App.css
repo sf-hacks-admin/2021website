@@ -66,6 +66,8 @@ a:active {
   .mainContainer-1 {
     padding: 20px;
     padding-top: 250px;
+    padding-bottom: 300px;
+    margin-top: -300px;
   }
 }
 @media only screen and (max-width: 950px) {

@@ -47,12 +47,12 @@ const LandingSection = props => {
 
       <div className="landing-font-1" style={{ marginBottom: 20 }}>
         San Francisco's
-        {(props.width === "xs" || props.width === "sm") && <br />} largest
+        {props.width === "xs" || props.width === "sm" ? <br /> : " "}largest
         collegiate hackathon.
       </div>
       <div className="landing-font-2">
-        March 5-7, 2021{" "}
-        {(props.width === "xs" || props.width === "sm") && <br />}// fully
+        March 5-7, 2021
+        {props.width === "xs" || props.width === "sm" ? <br /> : " "}// fully
         virtual
       </div>
 
