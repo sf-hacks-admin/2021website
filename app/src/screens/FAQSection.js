@@ -70,7 +70,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <div className="faq-container" id="ourFAQ" style={{backgroundImage: `url(${faqBackground})`}}>
+    <div className="faq-container" id="ourFAQ" style={{backgroundImage: `url(${faqBackground})`, padding:"30px"}}>
       <div className="title">
         <span className="headingText1">FAQs</span>
       </div>

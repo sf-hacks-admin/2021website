@@ -22,6 +22,7 @@ import StickerMule from "../assets/sponsors/sticker-mule.png";
 import Twilio from "../assets/sponsors/twilio.png";
 import Walmart from "../assets/sponsors/walmart.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
+import { Button } from "@material-ui/core";
 // import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
 
 const SponsorsSection = () => {
@@ -136,27 +137,31 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <div className="sponsors-container" id="ourSponsors">
+    <div className="sponsors-container" id="ourSponsors" style={{background:"purple", padding:"50px"}}>
       <div>
-        <div className="title">
-          <span className="headingText1">Past Sponsors</span>
+        <div className="title" style={{paddingBottom:"20px"}}>
+          <span className="headingText1">Sponsors</span>
         </div>
-
-        <div className="sponsor-content-container">
-          <div className="sponsor-content-inner">
-            {sponsors.map(sponsor => (
-              <div key={sponsor.name} className="sponsor-padding">
-                <div>
-                  <a href={sponsor.link}>
-                    <img
-                      src={sponsor.logo}
-                      alt={sponsor.name}
-                      className="img-style"
-                    />
-                  </a>
+        <div style={{background:"white", marginLeft: "100px", marginRight:"100px", padding:"20px"}}>
+          <div className="sponsor-content-container">
+            <div className="sponsor-content-inner">
+              {sponsors.map(sponsor => (
+                <div key={sponsor.name} className="sponsor-padding">
+                  <div>
+                    <a href={sponsor.link}>
+                      <img
+                        src={sponsor.logo}
+                        alt={sponsor.name}
+                        className="img-style"
+                      />
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+          <div style={{textAlign:"center"}}>
+            <Button>Become a Sponsor</Button>
           </div>
         </div>
       </div>

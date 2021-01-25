@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <ul style={{paddingTop:10, paddingRight:150}}>
+          <ul style={{paddingTop:10, paddingRight:150, font: "normal normal normal 19px/28px Open Sans"}}>
             <li><a href="">SCHEDULE</a></li>
             <li><a href="#ourFAQ">FAQ</a></li>
             <li><a href="#ourSponsors">SPONSORS</a></li>

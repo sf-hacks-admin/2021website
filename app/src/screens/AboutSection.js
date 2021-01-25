@@ -74,8 +74,8 @@ const AboutSection = () => {
   ];
   return (
     <div style={{ paddingRight: "10%", paddingLeft: "10%", marginTop: 50, backgroundImage: `url(${aboutBackground})` }}>
-      <div className="headingText1" style={{ textAlign: "center" }}>
-        <span className="highlight">About</span>
+      <div className="headingText1" style={{ textAlign: "center", font: "italic normal bold 60px/87px Montserrat"}}>
+        <span>About</span>
       </div>
       <div style={{ marginTop: 50 }}>
         {/* <div className="headingText2">
@@ -93,7 +93,7 @@ const AboutSection = () => {
         >
           <div
             className="descriptionText"
-            style={{ width: 425, marginBottom: 20 }}
+            style={{ width: 430, marginBottom: 20, font: "normal normal normal Open Sans" }}
           >
             Welcome to SF Hacks 2021: Life Hacks! This is our first virtual hackathon and we can’t wait to produce a brand new experience for our hackers. The event will highlight the new ideologies we developed through this pandemic. We believe that in times of chaos, there is opportunity. Let’s develop programs, build applications, and find solutions to change our society for the better.
           </div>
@@ -119,17 +119,17 @@ const AboutSection = () => {
           </div>
           <div
             className="descriptionText"
-            style={{ width: 425, marginBottom: 20 }}
+            style={{ width: 425, marginBottom: 20, font: "normal normal normal Open Sans" }}
           >
-            <div className="heading-3">OUR MISSION</div><br />
+            <div style={{font: "italic normal bold 35px/45px Montserrat"}}>OUR MISSION</div><br />
             Our organization’s purpose is to plan and host California’s most talented collegiate hackers, designers, and developers, to a 24-hour hackathon. We work towards giving students an environment for maximum innovation, collaboration, and education.
           </div>
           
         </div>
 
       <div style={{ marginTop: 50 }}>
-        <div className="headingText2">
-          <span className="highlight">OUR TEAM</span>
+        <div style={{font: "italic normal bold 35px/45px Montserrat", marginLeft:"60px"}}>
+          <span>OUR TEAM</span>
         </div>
         <div
           style={{
