@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/SponsorsSection.css";
-
+import backgroundImg from "../assets/sponsors/backgroundImg.svg";
 // import Allbirds from "../assets/sponsors/allbirds.png";
 import Autodesk from "../assets/sponsors/autodesk.png";
 // import Bare from "../assets/sponsors/bare.png";
@@ -76,7 +76,7 @@ const SponsorsSection = () => {
     //   name: "Interview Cake",
     //   logo: InterviewCake,
     // },
-    
+
     // {
     //   name: "SFSU Lam Family College of Business",
     //   logo: COB,
@@ -137,12 +137,23 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <div className="sponsors-container" id="ourSponsors" style={{background:"purple", padding:"50px"}}>
+    <div
+      className="mainContainer-1 background-img-1 "
+      id="ourSponsors"
+      style={{ backgroundImage: `url(${backgroundImg})` }}
+    >
       <div>
-        <div className="title" style={{paddingBottom:"20px"}}>
+        <div className="title" style={{ paddingBottom: "20px" }}>
           <span className="headingText1">Sponsors</span>
         </div>
-        <div style={{background:"white", marginLeft: "100px", marginRight:"100px", padding:"20px"}}>
+        <div
+          style={{
+            background: "white",
+            marginLeft: "100px",
+            marginRight: "100px",
+            padding: "20px"
+          }}
+        >
           <div className="sponsor-content-container">
             <div className="sponsor-content-inner">
               {sponsors.map(sponsor => (
@@ -160,7 +171,7 @@ const SponsorsSection = () => {
               ))}
             </div>
           </div>
-          <div style={{textAlign:"center"}}>
+          <div style={{ textAlign: "center" }}>
             <Button>Become a Sponsor</Button>
           </div>
         </div>

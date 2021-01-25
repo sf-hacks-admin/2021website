@@ -53,6 +53,8 @@ a:active {
 .mainContainer-1 {
   padding: 50px;
   padding-top: 250px;
+  padding-bottom: 300px;
+  margin-top: -300px;
 }
 
 .background-img-1 {

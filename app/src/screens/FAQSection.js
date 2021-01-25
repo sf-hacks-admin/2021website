@@ -59,8 +59,7 @@ const FAQSection = () => {
     // },
     {
       q: "When is the next event?",
-      a:
-        ""
+      a: ""
     },
     {
       q: "Where can I contact the officers?",
@@ -70,11 +69,15 @@ const FAQSection = () => {
   ];
 
   return (
-    <div className="faq-container" id="ourFAQ" style={{backgroundImage: `url(${faqBackground})`, padding:"30px"}}>
+    <div
+      className="mainContainer-1 background-img-1 "
+      id="ourFAQ"
+      style={{ backgroundImage: `url(${faqBackground})` }}
+    >
       <div className="title">
         <span className="headingText1">FAQs</span>
       </div>
-      <div style={{background: "white", margin: "150px"}}>
+      <div style={{ background: "white", borderRadius: 20, paddingTop: 10 }}>
         {faqs.map(faq => (
           <div key={faq.q}>
             <Accordion q={faq.q} a={faq.a} />

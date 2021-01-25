@@ -18,6 +18,7 @@ function App() {
     <div>
       <Navbar />
       <LandingSection />
+      <div style={{ paddingBottom: 200 }} />
       <AboutSection />
       <TracksSection />
       <FAQSection />

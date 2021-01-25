@@ -43,15 +43,15 @@ const AboutSection = () => {
       position: "Sponshorship Lead",
       image: NyaProfileImage
     },
-    { 
-      name: "Aman Kumar", 
-      position: "Design Lead", 
-      image: AmanProfileImage 
+    {
+      name: "Aman Kumar",
+      position: "Design Lead",
+      image: AmanProfileImage
     },
-    { 
-      name: "Brenda Yau", 
-      position: "Designer/Developer", 
-      image: BrendaProfileImage 
+    {
+      name: "Brenda Yau",
+      position: "Designer/Developer",
+      image: BrendaProfileImage
     },
     {
       name: "Jainam Shah",
@@ -63,18 +63,29 @@ const AboutSection = () => {
       position: "Marketing Lead",
       image: JohanaProfileImage
     },
-    { name: "Himanshu Garg",
-      position: "Web Developer", 
-      image: HimanshuProfileImage 
+    {
+      name: "Himanshu Garg",
+      position: "Web Developer",
+      image: HimanshuProfileImage
     },
-    { name: "Denis Makhlin",
-      position: "Graphic Designer", 
-      image: DenisProfileImage 
+    {
+      name: "Denis Makhlin",
+      position: "Graphic Designer",
+      image: DenisProfileImage
     }
   ];
   return (
-    <div style={{ paddingRight: "10%", paddingLeft: "10%", marginTop: 50, backgroundImage: `url(${aboutBackground})` }}>
-      <div className="headingText1" style={{ textAlign: "center", font: "italic normal bold 60px/87px Montserrat"}}>
+    <div
+      className="mainContainer-1 background-img-1 "
+      style={{ backgroundImage: `url(${aboutBackground})` }}
+    >
+      <div
+        className="headingText1"
+        style={{
+          textAlign: "center",
+          font: "italic normal bold 60px/87px Montserrat"
+        }}
+      >
         <span>About</span>
       </div>
       <div style={{ marginTop: 50 }}>
@@ -93,9 +104,18 @@ const AboutSection = () => {
         >
           <div
             className="descriptionText"
-            style={{ width: 430, marginBottom: 20, font: "normal normal normal Open Sans" }}
+            style={{
+              width: 430,
+              marginBottom: 20,
+              font: "normal normal normal Open Sans"
+            }}
           >
-            Welcome to SF Hacks 2021: Life Hacks! This is our first virtual hackathon and we can’t wait to produce a brand new experience for our hackers. The event will highlight the new ideologies we developed through this pandemic. We believe that in times of chaos, there is opportunity. Let’s develop programs, build applications, and find solutions to change our society for the better.
+            Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
+            hackathon and we can’t wait to produce a brand new experience for
+            our hackers. The event will highlight the new ideologies we
+            developed through this pandemic. We believe that in times of chaos,
+            there is opportunity. Let’s develop programs, build applications,
+            and find solutions to change our society for the better.
           </div>
           <div>
             <img src={aboutPicture} style={{ height: 350, width: "auto" }} />
@@ -104,31 +124,47 @@ const AboutSection = () => {
       </div>
 
       <div
+        style={{
+          marginTop: 20,
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          justifyContent: "space-around",
+          alignItems: "center"
+        }}
+      >
+        <div>
+          <img
+            src={teamPic}
+            style={{ height: 275, width: "auto", marginTop: 20 }}
+          />
+        </div>
+        <div
+          className="descriptionText"
           style={{
-            marginTop: 20,
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-            justifyContent: "space-around",
-            alignItems: "center"
+            width: 425,
+            marginBottom: 20,
+            font: "normal normal normal Open Sans"
           }}
         >
-
-          <div>
-            <img src={teamPic} style={{ height: 275, width: "auto", marginTop:20 }} />
+          <div style={{ font: "italic normal bold 35px/45px Montserrat" }}>
+            OUR MISSION
           </div>
-          <div
-            className="descriptionText"
-            style={{ width: 425, marginBottom: 20, font: "normal normal normal Open Sans" }}
-          >
-            <div style={{font: "italic normal bold 35px/45px Montserrat"}}>OUR MISSION</div><br />
-            Our organization’s purpose is to plan and host California’s most talented collegiate hackers, designers, and developers, to a 24-hour hackathon. We work towards giving students an environment for maximum innovation, collaboration, and education.
-          </div>
-          
+          <br />
+          Our organization’s purpose is to plan and host California’s most
+          talented collegiate hackers, designers, and developers, to a 24-hour
+          hackathon. We work towards giving students an environment for maximum
+          innovation, collaboration, and education.
         </div>
+      </div>
 
       <div style={{ marginTop: 50 }}>
-        <div style={{font: "italic normal bold 35px/45px Montserrat", marginLeft:"60px"}}>
+        <div
+          style={{
+            font: "italic normal bold 35px/45px Montserrat",
+            marginLeft: "60px"
+          }}
+        >
           <span>OUR TEAM</span>
         </div>
         <div
