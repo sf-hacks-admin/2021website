@@ -10,8 +10,10 @@ import COB from "../assets/sponsors/cob.png"; // import Desmos from "../assets/s
 // import GogoSqueez from "../assets/sponsors/gogo-squeez.png";
 import Google from "../assets/sponsors/google.png";
 import Guru from "../assets/sponsors/guru.png";
+import Cahsi from "../assets/sponsors/cahsi.png";
 // import InterviewCake from "../assets/sponsors/interview-cake.png";
 import Lyft from "../assets/sponsors/lyft.png";
+import GCloud from "../assets/sponsors/google-cloud.png";
 import Macys from "../assets/sponsors/macys.png";
 import Microsoft from "../assets/sponsors/msft.png";
 // import Notivize from "../assets/sponsors/notivize.png";
@@ -24,39 +26,10 @@ import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 
 const SponsorsSection = () => {
   const sponsors = [
-    {
-      name: "Microsoft",
-      logo: Microsoft,
-      link: "https://www.microsoft.com/en-us/"
-    },
-    {
-      name: "Google",
-      logo: Google,
-      link: "https://www.google.com/?client=safari"
-    },
-    {
-      name: "Autodesk",
-      logo: Autodesk,
-      link: "https://www.autodesk.com"
-    },
-    {
-      name: "Weight Watchers",
-      logo: WeightWatchers,
-      link: "https://www.weightwatchers.com/us/"
-    },
-    {
-      name: "Lyft",
-      logo: Lyft,
-      link: "https://www.lyft.com"
-    },
-    {
-      name: "Twilio",
-      logo: Twilio,
-      link: "https://www.twilio.com"
-    },
     // {
-    //   name: "Interview Cake",
-    //   logo: InterviewCake,
+    //   name: "Microsoft",
+    //   logo: Microsoft,
+    //   link: "https://www.microsoft.com/en-us/"
     // },
     {
       name: "SFSU College of Science and Engineering",
@@ -64,10 +37,50 @@ const SponsorsSection = () => {
       link: "https://cose.sfsu.edu"
     },
     {
-      name: "SFSU Lam Family College of Business",
-      logo: COB,
-      link: "https://cob.sfsu.edu"
+      name: "Google Cloud",
+      logo: GCloud,
+      link: "https://cloud.google.com/"
     },
+    {
+      name: "CAHSI",
+      logo: Cahsi,
+      link: "https://cahsi.utep.edu/"
+    }
+    // {
+    //   name: "Google",
+    //   logo: Google,
+    //   link: "https://www.google.com/?client=safari"
+    // },
+    // {
+    //   name: "Autodesk",
+    //   logo: Autodesk,
+    //   link: "https://www.autodesk.com"
+    // },
+    // {
+    //   name: "Weight Watchers",
+    //   logo: WeightWatchers,
+    //   link: "https://www.weightwatchers.com/us/"
+    // },
+    // {
+    //   name: "Lyft",
+    //   logo: Lyft,
+    //   link: "https://www.lyft.com"
+    // },
+    // {
+    //   name: "Twilio",
+    //   logo: Twilio,
+    //   link: "https://www.twilio.com"
+    // },
+    // {
+    //   name: "Interview Cake",
+    //   logo: InterviewCake,
+    // },
+    
+    // {
+    //   name: "SFSU Lam Family College of Business",
+    //   logo: COB,
+    //   link: "https://cob.sfsu.edu"
+    // },
     // {
     //   name: "Notivize",
     //   logo: Notivize,
@@ -80,20 +93,20 @@ const SponsorsSection = () => {
     //   name: "Desmos",
     //   logo: Desmos,
     // },
-    {
-      name: "Walmart",
-      logo: Walmart,
-      link: "https://www.walmart.com"
-    },
+    // {
+    //   name: "Walmart",
+    //   logo: Walmart,
+    //   link: "https://www.walmart.com"
+    // },
     // {
     //   name: "Allbirds",
     //   logo: Allbirds,
     // },
-    {
-      name: "StickerMule",
-      logo: StickerMule,
-      link: "https://www.stickermule.com"
-    },
+    // {
+    //   name: "StickerMule",
+    //   logo: StickerMule,
+    //   link: "https://www.stickermule.com"
+    // },
     // {
     //   name: "Gogo Squeez",
     //   logo: GogoSqueez,
@@ -102,20 +115,20 @@ const SponsorsSection = () => {
     //   name: "Bare",
     //   logo: Bare,
     // },
-    {
-      name: "Macys",
-      logo: Macys,
-      link: "https://www.macys.com"
-    },
+    // {
+    //   name: "Macys",
+    //   logo: Macys,
+    //   link: "https://www.macys.com"
+    // },
     // {
     //   name: "Bobos",
     //   logo: Bobos,
     // },
-    {
-      name: "Guru Organic Energy",
-      logo: Guru,
-      link: "https://www.guruenergy.com/en-us"
-    }
+    // {
+    //   name: "Guru Organic Energy",
+    //   logo: Guru,
+    //   link: "https://www.guruenergy.com/en-us"
+    // }
     // {
     //   name: "Guayaki Yerba Mate",
     //   logo: YerbaMate,
