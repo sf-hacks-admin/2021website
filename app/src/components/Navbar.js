@@ -1,6 +1,7 @@
 import React from "react";
 import SFHACKS_Logo from "../assets/SF_Hacks_Logo.png";
 import '../styles/Navbar.css';
+import { Button } from "@material-ui/core";
 
 const Navbar = () => {
   return (
@@ -33,6 +34,9 @@ const Navbar = () => {
             <li><a href="">SCHEDULE</a></li>
             <li><a href="#ourFAQ">FAQ</a></li>
             <li><a href="#ourSponsors">SPONSORS</a></li>
+            <li><Button variant="contained" className="landing-button">
+        Apply Now
+      </Button></li>
           </ul>
         </div>
       </div>

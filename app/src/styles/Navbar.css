@@ -3,3 +3,15 @@ ul li{
     list-style: none;
     padding-right: 20px;
 }
+
+.landing-button{
+  text-align: center !important;
+  font: italic normal bold 15px/20px Montserrat !important;
+  letter-spacing: 2.05px !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  margin-bottom: 10px !important;
+  padding: 10px 40px !important;
+  background-color: #6b3ab9 !important;
+  border-radius: 30px !important;
+}

@@ -83,19 +83,23 @@
 
 @media only screen and (max-width: 700px){
   .aboutPicture{
-    width:350px
+    width:350px;
+    height: auto;
   }
   .teamPic{
-    width: 350px
+    width: 350px;
+    height: auto;
   }
 }
 
 @media only screen and (max-width: 500px){
   .aboutPicture{
-    width:260px
+    width:260px;
+    height: auto;
   }
   .teamPic{
-    width: 260px
+    width: 260px;
+    height: auto;
   }
 }
 
