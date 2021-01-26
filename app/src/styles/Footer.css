@@ -18,3 +18,14 @@
   background-repeat: repeat no-repeat;
   background-size: auto 98%;
 }
+
+.footer-style{
+  display: flex; 
+  width:350px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 350px){
+  .footer-style{
+    width: 250px;
+  }
+}

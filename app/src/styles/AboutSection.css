@@ -64,4 +64,46 @@
   width: 210px;
   height: 220px;
 }
+
+.ourTeam{
+  font: italic normal bold 35px/45px Montserrat;
+  margin-left: 60px;
+}
+
+.aboutPicture{
+  height: 350px;
+  width: auto 
+}
+
+.teamPic{
+  height: 275px; 
+  width: auto;
+  margin-top: 20px 
+}
+
+@media only screen and (max-width: 700px){
+  .aboutPicture{
+    width:350px
+  }
+  .teamPic{
+    width: 350px
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .aboutPicture{
+    width:260px
+  }
+  .teamPic{
+    width: 260px
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .ourTeam{
+    text-align: center;
+  }
+}
+
+
 /* end about action */

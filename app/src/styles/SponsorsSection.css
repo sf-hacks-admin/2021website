@@ -43,3 +43,57 @@
   height: 120px;
   width: auto;
 }
+
+.sponsor-style{
+      background:white;
+      padding: 20px;
+      height:400px;
+      width:auto;
+}
+
+@media only screen and (max-width: 680px){
+  .sponsor-style{
+    width: 500px;
+    height:600px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .sponsor-style{
+    width: 500px;
+    height:700px;
+    padding: 1px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  .sponsor-style{
+    width: 400px;
+    height:700px;
+    padding: 1px;
+    margin: 5px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .sponsor-style{
+    width: 300px;
+    height:700px;
+    padding: 1px;
+    margin: 5px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .sponsor-style{
+    width: 250px;
+    height:700px;
+    padding: 1px;
+    margin: 5px;
+    align-items: center;
+  }
+}

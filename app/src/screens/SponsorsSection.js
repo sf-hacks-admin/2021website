@@ -147,11 +147,14 @@ const SponsorsSection = () => {
           <span className="headingText1">Sponsors</span>
         </div>
         <div
+          className="sponsor-style"
           style={{
-            background: "white",
-            marginLeft: "100px",
-            marginRight: "100px",
-            padding: "20px"
+            // background: "white",
+            // // marginLeft: "100px",
+            // // marginRight: "100px",
+            // padding: "20px",
+            // height:"700px",
+            // width:"auto"
           }}
         >
           <div className="sponsor-content-container">
@@ -172,7 +175,9 @@ const SponsorsSection = () => {
             </div>
           </div>
           <div style={{ textAlign: "center" }}>
-            <Button>Become a Sponsor</Button>
+          <Button variant="contained" className="landing-button-font-1">
+        Become a Sponsor
+      </Button>
           </div>
         </div>
       </div>

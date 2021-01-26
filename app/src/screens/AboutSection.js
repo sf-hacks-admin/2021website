@@ -118,7 +118,7 @@ const AboutSection = () => {
             and find solutions to change our society for the better.
           </div>
           <div>
-            <img src={aboutPicture} style={{ height: 350, width: "auto" }} />
+            <img src={aboutPicture} className= "aboutPicture" />
           </div>
         </div>
       </div>
@@ -136,7 +136,8 @@ const AboutSection = () => {
         <div>
           <img
             src={teamPic}
-            style={{ height: 275, width: "auto", marginTop: 20 }}
+            className="teamPic"
+            //style={{ height: 275, width: "auto", marginTop: 20 }}
           />
         </div>
         <div
@@ -159,10 +160,10 @@ const AboutSection = () => {
       </div>
 
       <div style={{ marginTop: 50 }}>
-        <div
+        <div className="ourTeam"
           style={{
-            font: "italic normal bold 35px/45px Montserrat",
-            marginLeft: "60px"
+            // font: "italic normal bold 35px/45px Montserrat",
+            // marginLeft: "60px"
           }}
         >
           <span>OUR TEAM</span>

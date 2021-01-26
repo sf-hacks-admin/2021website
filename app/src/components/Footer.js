@@ -36,8 +36,8 @@ const Footer = () => {
   ];
 
   return (
-    <div style={{background: "#240246" ,padding:'30px 0'}}>
-      <div style={{ display: 'flex', width:'350px', margin:'0 auto'}}>
+    <div style={{background: "#240246" ,padding:'20px 0'}}>
+      <div style={{ }} className="footer-style">
         {socials.map( social => (
           <div key={social.name}>
             <a href={social.link}>
