@@ -41,7 +41,7 @@ const Footer = () => {
         {socials.map( social => (
           <div key={social.name}>
             <a href={social.link}>
-              <img src={social.icon} style={{width:'50px' , margin:'10px', borderRadius:'100%', background:'black'}}/>
+              <img src={social.icon} style={{}} className="social-icons"/>
             </a>
           </div>
         ))}
