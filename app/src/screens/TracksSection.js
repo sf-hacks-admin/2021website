@@ -30,6 +30,7 @@ const TrackCard = props => {
       }}
     >
       <div
+        className="div-shadow"
         style={{
           width: props.width === "xs" ? 250 : 400,
           height: props.width === "xs" ? undefined : 630,

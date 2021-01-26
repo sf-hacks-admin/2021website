@@ -62,6 +62,10 @@ a:active {
   background-repeat: no-repeat;
 }
 
+.div-shadow {
+  box-shadow: 5px 5px 5px #b0b0b0;
+}
+
 @media only screen and (max-width: 600px) {
   .mainContainer-1 {
     padding: 20px;
@@ -78,5 +82,8 @@ a:active {
 @media only screen and (max-width: 400px) {
   .logo {
     height: 300px;
+  }
+  .div-shadow {
+    box-shadow: none;
   }
 }
