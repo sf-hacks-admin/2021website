@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/TracksSection.css";
+
 import homeImg from "../assets/tracksSection/undraw_sweet_home_dkhr.svg";
 import healthImg from "../assets/tracksSection/undraw_biking_kc4f.svg";
 import communicationImg from "../assets/tracksSection/undraw_Chatting_re_j55r.svg";
@@ -41,13 +43,7 @@ const TrackCard = props => {
           borderRadius: 20
         }}
       >
-        <img
-          src={props.imgSrc}
-          style={{
-            height: props.width === "xs" ? 150 : 215,
-            width: "auto"
-          }}
-        />
+        <img src={props.imgSrc} className="tracks-card-img" />
         <div className="heading-3" style={{ marginTop: 20, marginBottom: 20 }}>
           {props.title}
         </div>
