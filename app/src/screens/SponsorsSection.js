@@ -11,6 +11,8 @@ import COB from "../assets/sponsors/cob.png"; // import Desmos from "../assets/s
 import Google from "../assets/sponsors/google.png";
 import Guru from "../assets/sponsors/guru.png";
 import Cahsi from "../assets/sponsors/cahsi.png";
+import Hyperx from "../assets/sponsors/hyperx.png";
+import Chipotle from "../assets/sponsors/chipotle.png";
 // import InterviewCake from "../assets/sponsors/interview-cake.png";
 import Lyft from "../assets/sponsors/lyft.png";
 import GCloud from "../assets/sponsors/google-cloud.png";
@@ -46,6 +48,16 @@ const SponsorsSection = () => {
       name: "CAHSI",
       logo: Cahsi,
       link: "https://cahsi.utep.edu/"
+    },
+    {
+      name: "Hyper X",
+      logo: Hyperx,
+      link: "https://www.hyperxgaming.com/unitedstates/us"
+    },
+    {
+      name: "Chipotle",
+      logo: Chipotle,
+      link: "https://www.chipotle.com/"
     }
     // {
     //   name: "Google",
