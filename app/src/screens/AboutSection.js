@@ -80,10 +80,10 @@ const AboutSection = () => {
       style={{ backgroundImage: `url(${aboutBackground})` }}
     >
       <div
-        className="headingText1"
+        className="heading-1"
         style={{
           textAlign: "center",
-          font: "italic normal bold 60px/87px Montserrat"
+          marginTop:"-60px"
         }}
       >
         <span>About</span>
@@ -148,7 +148,7 @@ const AboutSection = () => {
             font: "normal normal normal Open Sans"
           }}
         >
-          <div style={{ font: "italic normal bold 35px/45px Montserrat" }}>
+          <div className="heading-3">
             OUR MISSION
           </div>
           <br />
@@ -160,10 +160,9 @@ const AboutSection = () => {
       </div>
 
       <div style={{ marginTop: 50 }}>
-        <div className="ourTeam"
+        <div className="heading-3"
           style={{
             // font: "italic normal bold 35px/45px Montserrat",
-            // marginLeft: "60px"
           }}
         >
           <span>OUR TEAM</span>

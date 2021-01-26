@@ -144,7 +144,7 @@ const SponsorsSection = () => {
     >
       <div>
         <div className="title" style={{ paddingBottom: "20px" }}>
-          <span className="headingText1">Sponsors</span>
+          <span className="heading-2" style={{color:"white", marginTop:"-60px"}}>Sponsors</span>
         </div>
         <div
           className="sponsor-style"
