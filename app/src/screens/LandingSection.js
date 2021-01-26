@@ -8,7 +8,6 @@ import withWidth from "@material-ui/core/withWidth";
 import "../styles/LandingSection.css";
 
 const LandingSection = props => {
-  console.log(props);
   return (
     // <div
     //   style={{
