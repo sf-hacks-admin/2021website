@@ -75,7 +75,7 @@ const FAQSection = () => {
       style={{ backgroundImage: `url(${faqBackground})` }}
     >
       <div className="title">
-        <span className="heading-1" style={{color:"white", marginTop:"-90px"}}>FAQs</span>
+        <span className="heading-2" style={{color:"white", marginTop:"-90px"}}>FAQs</span>
       </div>
       <div style={{ background: "white", borderRadius: 20, paddingTop: 10 }}>
         {faqs.map(faq => (
