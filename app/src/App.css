@@ -20,7 +20,7 @@ a:active {
 }
 
 .heading-1 {
-  font: italic normal bold 80px/97px Montserrat;
+  font: italic normal bold 60px/77px Montserrat;
   letter-spacing: 0px;
   opacity: 1;
   margin-bottom: 50px;
@@ -52,8 +52,8 @@ a:active {
 
 .mainContainer-1 {
   padding: 50px;
-  padding-top: 250px;
-  padding-bottom: 300px;
+  padding-top: 270px;
+  padding-bottom: 320px;
   margin-top: -300px;
 }
 

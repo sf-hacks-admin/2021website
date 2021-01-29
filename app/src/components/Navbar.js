@@ -12,6 +12,7 @@ import {
   withWidth
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 
 const Navbar = props => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -122,6 +123,27 @@ const Navbar = props => {
         </Drawer>
       </div>
       <div style={{ height: 80 }} />
+      {props.width === "xs" || props.width === "sm" ? (
+        <div style={{ position: "fixed", bottom: 0, right: 0 }}>
+          <Button
+            onClick={() => setDrawerOpen(!drawerOpen)}
+            variant="contained"
+            style={{
+              border: 20,
+              margin: 20,
+              width: 50,
+              height: 50,
+              minWidth: 50,
+              borderRadius: 120,
+              padding: 0,
+              backgroundColor: "#6b3ab9",
+              color: "#ffffff"
+            }}
+          >
+            <ArrowBackIcon style={{ fontSize: 25 }} />
+          </Button>
+        </div>
+      ) : null}
     </div>
   );
 };

@@ -83,7 +83,7 @@ const AboutSection = () => {
         className="heading-1"
         style={{
           textAlign: "center",
-          marginTop:"-60px"
+          marginTop: "-60px"
         }}
       >
         <span>About</span>
@@ -103,11 +103,10 @@ const AboutSection = () => {
           }}
         >
           <div
-            className="descriptionText"
+            className="reg-2"
             style={{
               width: 430,
-              marginBottom: 20,
-              font: "normal normal normal Open Sans"
+              marginBottom: 20
             }}
           >
             Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
@@ -118,7 +117,7 @@ const AboutSection = () => {
             and find solutions to change our society for the better.
           </div>
           <div>
-            <img src={aboutPicture} className= "aboutPicture" />
+            <img src={aboutPicture} className="aboutPicture" />
           </div>
         </div>
       </div>
@@ -141,16 +140,14 @@ const AboutSection = () => {
           />
         </div>
         <div
-          className="descriptionText"
+          className="reg-2"
           style={{
             width: 425,
             marginBottom: 20,
             font: "normal normal normal Open Sans"
           }}
         >
-          <div className="heading-3">
-            OUR MISSION
-          </div>
+          <div className="heading-3">OUR MISSION</div>
           <br />
           Our organization’s purpose is to plan and host California’s most
           talented collegiate hackers, designers, and developers, to a 24-hour
@@ -160,10 +157,11 @@ const AboutSection = () => {
       </div>
 
       <div style={{ marginTop: 50 }}>
-        <div className="heading-3"
+        <div
+          className="heading-3"
           style={{
             // font: "italic normal bold 35px/45px Montserrat",
-            textAlign:"center"
+            textAlign: "center"
           }}
         >
           <span>OUR TEAM</span>
