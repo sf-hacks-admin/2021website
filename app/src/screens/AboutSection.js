@@ -163,6 +163,7 @@ const AboutSection = () => {
         <div className="heading-3"
           style={{
             // font: "italic normal bold 35px/45px Montserrat",
+            textAlign:"center"
           }}
         >
           <span>OUR TEAM</span>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "../styles/EventsSection.css";
+import backgroundImg from "../assets/eventSection/backgroundImg.svg";
 
 const EventsSection = () => {
   const [currentEvent, setCurrentEvent] = useState(0);
@@ -57,9 +58,9 @@ const EventsSection = () => {
   };
   return (
     <div>
-      <div className="container">
-        <div style={{ textAlign: "center", marginBottom: 50 }}>
-          <span className="headingText1">Past Events</span>
+      <div className="container" style={{ marginTop:"-80px", backgroundImage: `url(${backgroundImg})`}}>
+        <div style={{ textAlign: "center", marginBottom: 50, color:"white" }}>
+          <span className="heading-2">PAST EVENTS</span>
         </div>
         <div className="innerContainer">
           <Slider {...settings}>

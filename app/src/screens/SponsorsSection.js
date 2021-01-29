@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/SponsorsSection.css";
-import backgroundImg from "../assets/sponsors/backgroundImg.svg";
+import backgroundImg from "../assets/sponsors/backgroundImg.png";
 
 // import Allbirds from "../assets/sponsors/allbirds.png";
 import Autodesk from "../assets/sponsors/autodesk.png";
