@@ -194,9 +194,11 @@ const SponsorsSection = () => {
             </div>
           </div>
           <div style={{ textAlign: "center" }}>
-          <Button variant="contained" className="landing-button-font-1">
-        Become a Sponsor
-      </Button>
+            <a href="https://sfhacks2021.typeform.com/to/qqAT73M7" target="_blank">
+              <Button variant="contained" className="landing-button-font-1">
+                Become a Sponsor
+              </Button>
+            </a>
           </div>
         </div>
       </div>
