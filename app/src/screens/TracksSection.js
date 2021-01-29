@@ -48,7 +48,9 @@ const TrackCard = props => {
         <div className="heading-3" style={{ marginTop: 20, marginBottom: 20 }}>
           {props.title}
         </div>
-        <div className="reg-2">{props.description}</div>
+        <div className="reg-2" style={{ textAlign: "center" }}>
+          {props.description}
+        </div>
       </div>
     </Grid>
   );

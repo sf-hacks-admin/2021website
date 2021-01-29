@@ -42,7 +42,7 @@ const Navbar = props => {
     <div>
       <div
         style={{
-          height: 80,
+          height: 90,
           width: "100%",
           backgroundColor: "#FFFFFF",
           paddingTop: 0,
@@ -73,12 +73,12 @@ const Navbar = props => {
               <ul
                 style={{
                   paddingTop: 10,
-                  paddingRight: 150,
+                  paddingRight: 170,
                   font: "normal normal normal 19px/28px Open Sans"
                 }}
               >
                 {navLinks.map(navLink => (
-                  <li key={navLink.title}>
+                  <li key={navLink.title} style={{ paddingRight: 40 }}>
                     <a href={navLink.link}>{navLink.title}</a>
                   </li>
                 ))}
@@ -122,7 +122,7 @@ const Navbar = props => {
           </div>
         </Drawer>
       </div>
-      <div style={{ height: 80 }} />
+      <div style={{ height: 90 }} />
       {props.width === "xs" || props.width === "sm" ? (
         <div style={{ position: "fixed", bottom: 0, right: 0 }}>
           <Button
@@ -140,7 +140,7 @@ const Navbar = props => {
               color: "#ffffff"
             }}
           >
-            <ArrowBackIcon style={{ fontSize: 25 }} />
+            <MenuIcon style={{ fontSize: 25 }} />
           </Button>
         </div>
       ) : null}
