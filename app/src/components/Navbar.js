@@ -17,10 +17,10 @@ import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 const Navbar = props => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const navLinks = [
-    {
-      title: "SCHEDULE",
-      link: "#"
-    },
+    // {
+    //   title: "SCHEDULE",
+    //   link: "#"
+    // },
     {
       title: "FAQ",
       link: "#ourFAQ"

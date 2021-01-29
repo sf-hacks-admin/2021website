@@ -181,7 +181,7 @@ const SponsorsSection = () => {
               {sponsors.map(sponsor => (
                 <div key={sponsor.name} className="sponsor-padding">
                   <div>
-                    <a href={sponsor.link}>
+                    <a href={sponsor.link} target="_blank">
                       <img
                         src={sponsor.logo}
                         alt={sponsor.name}

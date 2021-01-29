@@ -106,7 +106,8 @@ const AboutSection = () => {
             className="reg-2"
             style={{
               width: 430,
-              marginBottom: 20
+              marginBottom: 20,
+              textAlign:"center",
             }}
           >
             Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
@@ -144,7 +145,8 @@ const AboutSection = () => {
           style={{
             width: 425,
             marginBottom: 20,
-            font: "normal normal normal Open Sans"
+            font: "normal normal normal Open Sans",
+            textAlign:"center",
           }}
         >
           <div className="heading-3">OUR MISSION</div>
