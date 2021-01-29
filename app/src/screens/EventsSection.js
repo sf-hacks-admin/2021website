@@ -58,8 +58,15 @@ const EventsSection = () => {
   };
   return (
     <div>
-      <div className="container" style={{ marginTop:"-80px", backgroundImage: `url(${backgroundImg})`}}>
-        <div style={{ textAlign: "center", marginBottom: 50, color:"white" }}>
+      <div
+        className=" mainContainer-1 background-img-1"
+        style={{
+          backgroundImage: `url(${backgroundImg})`,
+          paddingBottom: 50,
+          paddingTop: 150
+        }}
+      >
+        <div style={{ textAlign: "center", marginBottom: 50, color: "white" }}>
           <span className="heading-2">PAST EVENTS</span>
         </div>
         <div className="innerContainer">
