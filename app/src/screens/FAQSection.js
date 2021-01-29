@@ -41,8 +41,8 @@ const FAQSection = () => {
         "By participating in our annual hackathons, you’ll be able to create new memories, meet other hackers, gain coding experience, as well as being able to say you attended our event!"
     },
     {
-      q:"Are we able to join/attend at any time within the 24-hour period?",
-      a:"",
+      q:"Are we able to join/attend at any time within the 3 day period? ",
+      a:"Yes! We will be broadcasting our workshops/games on all of our social medias. You can find the Zoom links within the posts and hop on whenever.",
     },
     {
       q: "Do I need a team to join?",

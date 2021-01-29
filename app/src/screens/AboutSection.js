@@ -21,55 +21,55 @@ import "../styles/AboutSection.css";
 
 const AboutSection = () => {
   const profiles = [
-    { name: "Leisha Murthy", position: "President", image: LeishaProfileImage },
+    { name: "Leisha M.", position: "President", image: LeishaProfileImage },
     // {
     //   name: "Megha Babariya",
     //   position: "Vice President",
     //   image: MeghaProfileImage
     // },
-    { name: "Kevin Manago", position: "Treasurer", image: KevinProfileImage },
+    { name: "Kevin M.", position: "Treasurer", image: KevinProfileImage },
     {
-      name: "Orion Culbertson",
+      name: "Orion C.",
       position: "Logistics Lead",
       image: OrionProfileImage
     },
     {
-      name: "Johnathan Huynh",
+      name: "Johnathan H.",
       position: "Day of Logistics",
       image: JohnathanProfileImage
     },
     {
-      name: "Nya Bautista",
+      name: "Nya B.",
       position: "Sponshorship Lead",
       image: NyaProfileImage
     },
     {
-      name: "Aman Kumar",
+      name: "Aman K.",
       position: "Design Lead",
       image: AmanProfileImage
     },
     {
-      name: "Brenda Yau",
+      name: "Brenda Y.",
       position: "Designer/Developer",
       image: BrendaProfileImage
     },
     {
-      name: "Jainam Shah",
+      name: "Jainam S.",
       position: "Web Developer",
       image: JainamProfileImage
     },
     {
-      name: "Johana Matute",
+      name: "Johana M.",
       position: "Marketing Lead",
       image: JohanaProfileImage
     },
     {
-      name: "Himanshu Garg",
+      name: "Himanshu G.",
       position: "Web Developer",
       image: HimanshuProfileImage
     },
     {
-      name: "Denis Makhlin",
+      name: "Denis M.",
       position: "Graphic Designer",
       image: DenisProfileImage
     }

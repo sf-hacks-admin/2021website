@@ -1,9 +1,9 @@
 import React from "react";
-import facebookIcon from '../assets/Facebook_Icon.svg';
-import instagramIcon from '../assets/Instagram_Icon.svg';
-import twitterIcon from '../assets/Twitter_Icon.svg';
-import linkedinIcon from '../assets/LinkedIn_Icon.svg';
-import discordIcon from '../assets/Discord_Icon.svg';
+import facebookIcon from '../assets/socialMedia/fb.png';
+import instagramIcon from '../assets/socialMedia/ig.png';
+import twitterIcon from '../assets/socialMedia/tw.png';
+import linkedinIcon from '../assets/socialMedia/linkedin.png';
+import discordIcon from '../assets/socialMedia/discord.png';
 
 import "../styles/Footer.css"
 const Footer = () => {

@@ -46,9 +46,21 @@
 
 .sponsor-style{
       background:white;
+      border-radius: 30px;
       padding: 20px;
       height:400px;
-      width:auto;
+      width:70%;
+      display: block;
+      margin: 0 auto;
+      align-items: center;
+}
+
+@media only screen and (max-width: 1260px){
+  .sponsor-style{
+    width: 85%;
+    height:auto;
+    padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 960px){
