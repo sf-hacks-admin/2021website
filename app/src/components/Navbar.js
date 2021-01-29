@@ -31,9 +31,11 @@ const Navbar = props => {
   ];
 
   const applyButton = (
-    <Button variant="contained" className="landing-button">
-      Apply Now
-    </Button>
+    <a href="https://sfhacks2020.typeform.com/to/jGdkmdK8" target="_blank">
+      <Button variant="contained" className="landing-button">
+        Apply Now
+      </Button>
+    </a>
   );
   return (
     <div>

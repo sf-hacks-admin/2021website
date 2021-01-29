@@ -54,12 +54,13 @@ const LandingSection = props => {
         {props.width === "xs" || props.width === "sm" ? <br /> : " "}// fully
         virtual
       </div>
-
-      <Button variant="contained" className="landing-button-font-1">
-        APPLY NOW
-      </Button>
+      <a href="https://sfhacks2020.typeform.com/to/jGdkmdK8" target="_blank">
+        <Button variant="contained" className="landing-button-font-1">
+          APPLY NOW
+        </Button>
+        </a>
       <div className="landing-font-3">
-        <a href="#">Become a mentor</a>
+        <a href="https://sfhacks2020.typeform.com/to/O8sT9jVk" target="_blank">Become a mentor</a>
       </div>
     </div>
   );
