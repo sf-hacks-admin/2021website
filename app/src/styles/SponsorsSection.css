@@ -51,10 +51,10 @@
       width:auto;
 }
 
-@media only screen and (max-width: 680px){
+@media only screen and (max-width: 960px){
   .sponsor-style{
     width: 95%;
-    height:650px;
+    height:auto;
     padding: 10px;
   }
 }

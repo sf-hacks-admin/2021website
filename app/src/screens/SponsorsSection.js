@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/SponsorsSection.css";
 import backgroundImg from "../assets/sponsors/backgroundImg.svg";
-import JainamProfileImage from "../assets/teamProfile/Jainam.png";
+
 // import Allbirds from "../assets/sponsors/allbirds.png";
 import Autodesk from "../assets/sponsors/autodesk.png";
 // import Bare from "../assets/sponsors/bare.png";
@@ -12,6 +12,7 @@ import COB from "../assets/sponsors/cob.png"; // import Desmos from "../assets/s
 import Google from "../assets/sponsors/google.png";
 import Guru from "../assets/sponsors/guru.png";
 import Cahsi from "../assets/sponsors/cahsi.png";
+import csld from "../assets/sponsors/csld-logo.png";
 import Hyperx from "../assets/sponsors/hyperx.png";
 import Chipotle from "../assets/sponsors/chipotle.png";
 // import InterviewCake from "../assets/sponsors/interview-cake.png";
@@ -25,7 +26,6 @@ import StickerMule from "../assets/sponsors/sticker-mule.png";
 import Twilio from "../assets/sponsors/twilio.png";
 import Walmart from "../assets/sponsors/walmart.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
-import HimanshuProfileImage from "../assets/teamProfile/Himanshu.png";
 import { Button } from "@material-ui/core";
 // import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
 
@@ -53,13 +53,18 @@ const SponsorsSection = () => {
     },
     {
       name: "Hyper X",
-      logo: JainamProfileImage,
+      logo: Hyperx,
       link: "https://www.hyperxgaming.com/unitedstates/us"
     },
     {
       name: "Chipotle",
-      logo: HimanshuProfileImage,
+      logo: Chipotle,
       link: "https://www.chipotle.com/"
+    },
+    {
+      name: "CSLD",
+      logo: csld,
+      link: "https://careerservices.sfsu.edu/"
     }
     // {
     //   name: "Google",
