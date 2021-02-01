@@ -24,6 +24,7 @@ import Microsoft from "../assets/sponsors/msft.png";
 // import Pathrise from "../assets/sponsors/pathrise.png";
 import StickerMule from "../assets/sponsors/sticker-mule.png";
 import Twilio from "../assets/sponsors/twilio.png";
+import IBM from "../assets/sponsors/ibm.png";
 import Walmart from "../assets/sponsors/walmart.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 import { Button } from "@material-ui/core";
@@ -31,11 +32,16 @@ import { Button } from "@material-ui/core";
 
 const SponsorsSection = () => {
   const sponsors = [
-    // {
-    //   name: "Microsoft",
-    //   logo: Microsoft,
-    //   link: "https://www.microsoft.com/en-us/"
-    // },
+    {
+      name: "Microsoft",
+      logo: Microsoft,
+      link: "https://www.microsoft.com/en-us/"
+    },
+    {
+      name: "IBM",
+      logo: IBM,
+      link: "https://www.ibm.com/us-en/"
+    },
     {
       name: "SFSU College of Science and Engineering",
       logo: COSE,
