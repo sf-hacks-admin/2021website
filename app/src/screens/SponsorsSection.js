@@ -131,7 +131,7 @@ const SponsorsSection = () => {
     {
       name: "StickerMule",
       logo: StickerMule,
-      link: "https://www.stickermule.com"
+      link: "http://hackp.ac/mlh-stickermule-hackathons"
     }
     // {
     //   name: "Gogo Squeez",
