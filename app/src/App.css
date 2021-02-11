@@ -13,12 +13,21 @@ a:visited {
   color: #512783;
 }
 
-a:hover {
+/* a:hover {
   color: #73529b;
-}
+} */
 
 a:active {
   color: #512783;
+}
+
+a:hover {
+  opacity: 80%;
+  cursor: pointer;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 .heading-1 {

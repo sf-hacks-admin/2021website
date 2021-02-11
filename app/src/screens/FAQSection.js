@@ -68,13 +68,13 @@ const FAQSection = () => {
     {
       q: "Where can I contact the officers?",
       a:
-        "You can email us at sfhacksteam@gmail.com. If it’s urgent, join our Discord (linked in our bio) and send us a message. One of us will help within 24 hours! "
+        "You can email us at sfhacksteam@gmail.com. If it’s urgent, join our Discord (link in our footer) and send us a message. One of us will help within 24 hours! "
     },
-    {
-      q: "What code of conduct does SF Hacks follow?",
-      a:
-        "We follow the MLH Code of Conduct. Please read this if you plan to partake in our event!"
-    }
+    // {
+    //   q: "What code of conduct does SF Hacks follow?",
+    //   a:
+    //     "We follow the MLH Code of Conduct. Please read this if you plan to partake in our event!"
+    // }
   ];
 
   return (

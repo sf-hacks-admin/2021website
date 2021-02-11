@@ -8,7 +8,7 @@
 .footer-main-container {
   /* margin-top: 10px; */
   /* height: 100px; */
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   text-align: center;
   display: flex;
   align-items: flex-end;
@@ -27,14 +27,6 @@
 
 .social-icons{
   width:50px ; margin:10px; border-radius:100%;
-}
-.social-icons:hover {
-  opacity: 70%;
-  cursor: pointer;
-  -moz-transition: all .1s ease-in;
-  -o-transition: all .1s ease-in;
-  -webkit-transition: all .1s ease-in;
-  transition: all .1s ease-in;
 }
 
 @media only screen and (max-width: 380px){

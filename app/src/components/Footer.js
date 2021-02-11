@@ -52,8 +52,12 @@ const Footer = () => {
       </div>
 
       <div className="footer-main-container">
+        <a href="http://mlh.io/code-of-conduct"><p className="footer-text"><u>MLH Code of Conduct</u></p></a>
+      </div>
+
+      <div className="footer-main-container">
         {/* <span className="footer-text">Made with ♡ by SF Hacks</span> */}
-        <span className="footer-text">Made with 💜 by SF Hacks</span>
+        <p className="footer-text">Made with 💜 by SF Hacks</p>
       </div>
     </div>
   );
