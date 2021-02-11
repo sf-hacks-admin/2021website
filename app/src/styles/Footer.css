@@ -27,7 +27,15 @@
 }
 
 .social-icons{
-  width:50px ; margin:10px; border-radius:100%; background:black;
+  width:50px ; margin:10px; border-radius:100%;
+}
+.social-icons:hover {
+  opacity: 70%;
+  cursor: pointer;
+  -moz-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
 }
 
 @media only screen and (max-width: 380px){
