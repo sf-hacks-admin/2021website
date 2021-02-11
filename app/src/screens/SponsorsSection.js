@@ -71,7 +71,7 @@ const SponsorsSection = () => {
       name: "CSLD",
       logo: csld,
       link: "https://careerservices.sfsu.edu/"
-    }
+    },
     // {
     //   name: "Google",
     //   logo: Google,
@@ -128,11 +128,11 @@ const SponsorsSection = () => {
     //   name: "Allbirds",
     //   logo: Allbirds,
     // },
-    // {
-    //   name: "StickerMule",
-    //   logo: StickerMule,
-    //   link: "https://www.stickermule.com"
-    // },
+    {
+      name: "StickerMule",
+      logo: StickerMule,
+      link: "http://hackp.ac/mlh-stickermule-hackathons"
+    }
     // {
     //   name: "Gogo Squeez",
     //   logo: GogoSqueez,
