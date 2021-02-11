@@ -86,7 +86,7 @@ const AboutSection = () => {
           marginTop: "-60px"
         }}
       >
-        <span>About</span>
+        <span>ABOUT</span>
       </div>
       <div style={{ marginTop: 50 }}>
         {/* <div className="headingText2">

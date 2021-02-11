@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
-
 .logo {
   width: auto;
   height: 450px;
@@ -9,12 +8,15 @@ a:link {
   color: #512783;
   text-decoration: none;
 }
+
 a:visited {
   color: #512783;
 }
+
 a:hover {
   color: #73529b;
 }
+
 a:active {
   color: #512783;
 }
@@ -63,7 +65,11 @@ a:active {
 }
 
 .div-shadow {
-  box-shadow: 5px 5px 5px #b0b0b0;
+  /* box-shadow: 5px 5px 5px #8b2eff; */
+  background: transparent 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 40px #8B2EFFB2;
+  border-radius: 10px;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -74,11 +80,13 @@ a:active {
     margin-top: -300px;
   }
 }
+
 @media only screen and (max-width: 950px) {
   .logo {
     height: 400px;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .logo {
     height: 300px;

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import arrow from "../assets/arrow-down.png";
+import "../styles/FAQSection.css";
 
 // component for faqs section
 
@@ -20,7 +21,8 @@ const Accordion = props => {
   const titleStyle = {
     fontWeight: 600,
     fontSize: "22px",
-    textAlign: "left"
+    textAlign: "left",
+    margin: "2px"
   };
 
   return (
@@ -30,11 +32,13 @@ const Accordion = props => {
           <img src={arrow} style={{ width: "20px" }} />
         </span>
 
-        <p style={titleStyle}>{props.q}</p>
+        <div>
+          <p className="reg-1" style={titleStyle}>{props.q}</p>
+        </div>
       </button>
 
       <div ref={contentRef} className="accordion-content">
-        <span className="accordion-text">{props.a}</span>
+        <span className="reg-2 accordion-text">{props.a}</span>
       </div>
     </div>
   );
