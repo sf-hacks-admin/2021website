@@ -38,6 +38,7 @@ const Navbar = props => {
       </Button>
     </a>
   );
+
   return (
     <div>
       <div
@@ -66,19 +67,26 @@ const Navbar = props => {
           </div>
         ) : (
           <>
-            <div style={{ marginLeft: 50 }}>
+            <div style={{ marginLeft: 50, display:"flex", justifyContent:"center", alignItems:"center", }}>
               <img src={SFHACKS_Logo} style={{ height: 80, width: "auto" }} />
             </div>
-            <div>
+            <div style={{
+              display:"flex",
+              justifyContent:"center",
+              alignItems:"center",
+            }}>
               <ul
                 style={{
-                  paddingTop: 10,
-                  paddingRight: 170,
+                  // paddingTop: 10,
+                  display:"flex",
+                  justifyContent:"center",
+                  alignItems:"center",
+                  paddingRight: 180,
                   font: "normal normal normal 19px/28px Open Sans"
                 }}
               >
                 {navLinks.map(navLink => (
-                  <li key={navLink.title} style={{ paddingRight: 40 }}>
+                  <li key={navLink.title} style={{ paddingRight: 70 }}>
                     <a href={navLink.link}>{navLink.title}</a>
                   </li>
                 ))}
