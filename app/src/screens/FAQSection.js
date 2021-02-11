@@ -81,12 +81,12 @@ const FAQSection = () => {
     <div
       className="mainContainer-1 background-img-1 "
       id="ourFAQ"
-      style={{ backgroundImage: `url(${faqBackground})` }}
+      style={{ backgroundImage: `url(${faqBackground})`}}
     >
       <div className="title">
         <span className="heading-2" style={{color:"white", marginTop:"-90px"}}>FAQs</span>
       </div>
-      <div className="div-shadow" style={{ background: "white", borderRadius: 20, paddingTop: 10 }}>
+      <div className="div-shadow" style={{ background: "white", borderRadius: 20, padding: "10px 0 30px 0" }}>
         {faqs.map(faq => (
           <div key={faq.q}>
             <Accordion q={faq.q} a={faq.a} />
