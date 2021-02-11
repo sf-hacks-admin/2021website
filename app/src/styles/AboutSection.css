@@ -40,6 +40,10 @@
   color: #ffffff;
 }
 
+#mobileAboutCol {
+  margin: 0 50px 20px 50px;
+}
+
 .about-h1 {
   font: normal normal bold 45px/58px "Montserrat";
   letter-spacing: 3px;
@@ -94,12 +98,15 @@
 
 @media only screen and (max-width: 500px){
   .aboutPicture{
-    width:260px;
+    width: 260px;
     height: auto;
   }
   .teamPic{
     width: 260px;
     height: auto;
+  }
+  #mobileAboutCol {
+    margin: 20px 0;
   }
 }
 

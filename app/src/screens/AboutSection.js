@@ -104,11 +104,11 @@ const AboutSection = () => {
           }}
         >
           <div
+            id="mobileAboutCol"
             className="reg-2"
             style={{
               width: 430,
               // marginBottom: 20,
-              margin: "0 50px 20px 50px",
               textAlign:"center",
             }}
           >
@@ -119,7 +119,7 @@ const AboutSection = () => {
             there is opportunity. Let’s develop programs, build applications,
             and find solutions to change our society for the better.
           </div>
-          <div style={{ margin: "0 50px 20px 50px"}}>
+          <div id="mobileAboutCol" >
             <img src={aboutPicture} className="aboutPicture" />
           </div>
         </div>
@@ -139,17 +139,17 @@ const AboutSection = () => {
         <div>
           <img
             src={teamPic}
+            id="mobileAboutCol" 
             className="teamPic"
-            style={{ margin: "0 50px 20px 50px",}}
             //style={{ height: 275, width: "auto", marginTop: 20 }}
           />
         </div>
         <div
+          id="mobileAboutCol" 
           className="reg-2"
           style={{
             width: 425,
             // marginBottom: 20,
-            margin: "0 50px 20px 50px",
             font: "normal normal normal Open Sans",
             textAlign:"center",
           }}
