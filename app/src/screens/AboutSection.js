@@ -98,7 +98,8 @@ const AboutSection = () => {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
-            justifyContent: "space-around",
+            // justifyContent: "space-around",
+            justifyContent: "center",
             alignItems: "center"
           }}
         >
@@ -106,7 +107,8 @@ const AboutSection = () => {
             className="reg-2"
             style={{
               width: 430,
-              marginBottom: 20,
+              // marginBottom: 20,
+              margin: "0 50px 20px 50px",
               textAlign:"center",
             }}
           >
@@ -117,7 +119,7 @@ const AboutSection = () => {
             there is opportunity. Let’s develop programs, build applications,
             and find solutions to change our society for the better.
           </div>
-          <div>
+          <div style={{ margin: "0 50px 20px 50px"}}>
             <img src={aboutPicture} className="aboutPicture" />
           </div>
         </div>
@@ -129,7 +131,8 @@ const AboutSection = () => {
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
-          justifyContent: "space-around",
+          // justifyContent: "space-around",
+          justifyContent: "center",
           alignItems: "center"
         }}
       >
@@ -137,6 +140,7 @@ const AboutSection = () => {
           <img
             src={teamPic}
             className="teamPic"
+            style={{ margin: "0 50px 20px 50px",}}
             //style={{ height: 275, width: "auto", marginTop: 20 }}
           />
         </div>
@@ -144,7 +148,8 @@ const AboutSection = () => {
           className="reg-2"
           style={{
             width: 425,
-            marginBottom: 20,
+            // marginBottom: 20,
+            margin: "0 50px 20px 50px",
             font: "normal normal normal Open Sans",
             textAlign:"center",
           }}
