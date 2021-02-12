@@ -13,7 +13,7 @@
 }
 
 .faq-hr {
-  margin: 0 30px;
+  margin: 5px 30px;
   color: #f5f5f5;
   opacity: 50%;
 }
@@ -22,7 +22,8 @@
   display: flex;
 
   flex-direction: column;
-  margin: 30px;
+  /* margin: 30px; */
+  padding: 10px 30px;
 }
 
 .accordion-title {
@@ -54,11 +55,21 @@
   background-color: white;
   overflow: hidden;
   transition: max-height 0.25s ease;
-  margin: 0 35px;
+  /* margin: 0 35px; */
+  padding: 0px 35px;
 }
 
 .accordion-text {
-  font-family: "montserrat";
+  font-family: "open sans";
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 500px){
+  .reg-1 {
+    line-height: 30px;
+  }
+  .reg-2 {
+    line-height: 22px;
+  }
 }

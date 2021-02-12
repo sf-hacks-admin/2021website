@@ -68,25 +68,25 @@ const FAQSection = () => {
     {
       q: "Where can I contact the officers?",
       a:
-        "You can email us at sfhacksteam@gmail.com. If it’s urgent, join our Discord (linked in our bio) and send us a message. One of us will help within 24 hours! "
+        "You can email us at sfhacksteam@gmail.com. If it’s urgent, join our Discord (link in our footer) and send us a message. One of us will help within 24 hours! "
     },
-    {
-      q: "What code of conduct does SF Hacks follow?",
-      a:
-        "We follow the MLH Code of Conduct. Please read this if you plan to partake in our event!"
-    }
+    // {
+    //   q: "What code of conduct does SF Hacks follow?",
+    //   a:
+    //     "We follow the MLH Code of Conduct. Please read this if you plan to partake in our event!"
+    // }
   ];
 
   return (
     <div
       className="mainContainer-1 background-img-1 "
       id="ourFAQ"
-      style={{ backgroundImage: `url(${faqBackground})` }}
+      style={{ backgroundImage: `url(${faqBackground})`}}
     >
       <div className="title">
         <span className="heading-2" style={{color:"white", marginTop:"-90px"}}>FAQs</span>
       </div>
-      <div style={{ background: "white", borderRadius: 20, paddingTop: 10 }}>
+      <div className="div-shadow" style={{ background: "white", borderRadius: 20, padding: "10px 0 30px 0" }}>
         {faqs.map(faq => (
           <div key={faq.q}>
             <Accordion q={faq.q} a={faq.a} />

@@ -86,7 +86,7 @@ const AboutSection = () => {
           marginTop: "-60px"
         }}
       >
-        <span>About</span>
+        <span>ABOUT</span>
       </div>
       <div style={{ marginTop: 50 }}>
         {/* <div className="headingText2">
@@ -98,15 +98,17 @@ const AboutSection = () => {
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
-            justifyContent: "space-around",
+            // justifyContent: "space-around",
+            justifyContent: "center",
             alignItems: "center"
           }}
         >
           <div
+            id="mobileAboutCol"
             className="reg-2"
             style={{
               width: 430,
-              marginBottom: 20,
+              // marginBottom: 20,
               textAlign:"center",
             }}
           >
@@ -117,7 +119,7 @@ const AboutSection = () => {
             there is opportunity. Let’s develop programs, build applications,
             and find solutions to change our society for the better.
           </div>
-          <div>
+          <div id="mobileAboutCol" >
             <img src={aboutPicture} className="aboutPicture" />
           </div>
         </div>
@@ -129,22 +131,25 @@ const AboutSection = () => {
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
-          justifyContent: "space-around",
+          // justifyContent: "space-around",
+          justifyContent: "center",
           alignItems: "center"
         }}
       >
         <div>
           <img
             src={teamPic}
+            id="mobileAboutCol" 
             className="teamPic"
             //style={{ height: 275, width: "auto", marginTop: 20 }}
           />
         </div>
         <div
+          id="mobileAboutCol" 
           className="reg-2"
           style={{
             width: 425,
-            marginBottom: 20,
+            // marginBottom: 20,
             font: "normal normal normal Open Sans",
             textAlign:"center",
           }}
