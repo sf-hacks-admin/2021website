@@ -1,7 +1,7 @@
 import React from "react";
 import SFHACKs_logo from "../assets/SF_Hacks_Logo.png";
 import backgrounfImg from "../assets/landingSection/background.png";
-import SFHacksLogo from "../assets/landingSection/SFHacksLogo.png";
+import SFHacksLogo from "../assets/landingSection/crop-landinglogo.png";
 import { Button } from "@material-ui/core";
 import withWidth from "@material-ui/core/withWidth";
 

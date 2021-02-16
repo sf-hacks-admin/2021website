@@ -40,7 +40,7 @@ const TrackCard = props => {
           alignItems: "center",
           alignContent: "center",
           backgroundColor: "#ffffff",
-          padding: 50,
+          padding: "30px 50px",
           borderRadius: 20
         }}
       >
@@ -60,25 +60,25 @@ const TracksSection = props => {
   const tracks = [
     {
       imgSrc: educationImg,
-      title: "Education",
+      title: "EDUCATION",
       description:
         "Due to the pandemic, many of us around the globe are struggling to adapt to this environment. This goes for students, teachers, and employees in the workforce. We challenge our hackers to rethink their own experiences in school and explore ways to better society’s approach to Education."
     },
     {
       imgSrc: communicationImg,
-      title: "Communication",
+      title: "COMMUNICATION",
       description:
         "We are currently limited to the amount of connectivity we have with our loved ones. From families across the world to friends across a state, we are constricted to communication via technology. This track is intended to motivate hackers to find hacks to help rebuild the bridge to Communication."
     },
     {
       imgSrc: healthImg,
-      title: "Health",
+      title: "HEALTH",
       description:
         "From recent events, our health is more crucial than ever. We should maintain our physical and mental health in these abnormal times. With more than half the nation lacking in healthcare, the strive for solutions is more prevalent than ever. This challenge is aimed towards hackers who want to explore Health Hacks."
     },
     {
       imgSrc: homeImg,
-      title: "Home",
+      title: "HOME",
       description:
         "The world has been at a stand still as most people have shifted their lives to staying home. We have utilized tips/tricks to learn, work, teach, and entertain from the comfort of our household. For this track, we challenge our hackers to reflect on their own new found skill set and produce applications to improve one’s life from Home."
     }
@@ -89,9 +89,9 @@ const TracksSection = props => {
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
       <div className="heading-1" style={{ textAlign: "center" }}>
-        Tracks
+        TRACKS
       </div>
-      <Grid container spacing={3}>
+      <Grid container spacing={5}>
         {tracks.map((track, index) => (
           <TrackCard {...track} index={index} {...props} />
         ))}
