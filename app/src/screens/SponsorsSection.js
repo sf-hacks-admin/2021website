@@ -26,6 +26,7 @@ import StickerMule from "../assets/sponsors/sticker-mule.png";
 import Twilio from "../assets/sponsors/twilio.png";
 import IBM from "../assets/sponsors/ibm.png";
 import Walmart from "../assets/sponsors/walmart.png";
+import Wolfram from "../assets/sponsors/wolf.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 import { Button } from "@material-ui/core";
 // import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
@@ -132,6 +133,11 @@ const SponsorsSection = () => {
       name: "StickerMule",
       logo: StickerMule,
       link: "http://hackp.ac/mlh-stickermule-hackathons"
+    },
+    {
+      name: "Wolfram Alpha",
+      logo: Wolfram,
+      link: "https://www.wolframalpha.com/"
     }
     // {
     //   name: "Gogo Squeez",
