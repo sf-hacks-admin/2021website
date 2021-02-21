@@ -78,10 +78,10 @@ const AboutSection = () => {
     }
   ];
   return (
-    <div className="parentContainer-1">
+    <div className="parentContainer-1" style={{paddingBottom:"-600"}}>
       <div
-        className="mainContainer-1 background-img-1 "
-        style={{ backgroundImage: `url(${aboutBackground})` }}
+        className="container-1 background-img-1 "
+        style={{ backgroundImage: `url(${aboutBackground})`}}
       >
         <div
           className="heading-1"
@@ -250,7 +250,7 @@ const AboutSection = () => {
               flexDirection: "row",
               flexWrap: "wrap",
               justifyContent: "center",
-              alignItems: "center"
+              alignItems: "center",
             }}
           >
             <img className="statCard" src={schools} />

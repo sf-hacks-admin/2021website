@@ -89,7 +89,7 @@ const TracksSection = props => {
         className="mainContainer-1 background-img-1 "
         style={{ backgroundImage: `url(${backgroundImg})` }}
       >
-        <div className="heading-1" style={{ textAlign: "center" }}>
+        <div className="heading-1" style={{ textAlign: "center", paddingTop:"100px" }}>
           Welcome to SF Hacks 2021: Life Hacks
         </div>
         <div className="welcomeHackers">

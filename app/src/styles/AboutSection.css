@@ -103,6 +103,14 @@
   opacity: 1;
 }
 
+.container-1{
+  padding: 50px;
+  padding-top: 270px;
+  margin-top: -300px;
+  max-width: 3000px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1300px) {
   .aboutPicture {
     height: 370px;
@@ -153,6 +161,19 @@
 
   .numParticipants {
     width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-1 {
+    padding: 5px;
+    padding-top: 250px;
+    margin-top: -300px;
+  }
+
+  .statCard {
+    height: 400px;
+    margin: 5px;
   }
 }
 
