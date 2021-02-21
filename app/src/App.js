@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import SponsorsSection from "./screens/SponsorsSection";
 import FAQSection from "./screens/FAQSection";
 import TracksSection from "./screens/TracksSection";
+import KeynoteSpeakers from "./screens/KeynoteSpeakers";
 
 function App() {
   return (
@@ -19,11 +20,12 @@ function App() {
       <Navbar />
       <LandingSection />
       <div style={{ paddingBottom: 200 }} />
-      <AboutSection />
       <TracksSection />
+      <KeynoteSpeakers />
       <FAQSection />
       <SponsorsSection />
-      <EventsSection />
+      <AboutSection />
+      {/* <EventsSection /> */}
       <Footer />
     </div>
   );
