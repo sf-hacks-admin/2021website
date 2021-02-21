@@ -1,5 +1,8 @@
 import React from "react";
 
+import majors from "../assets/pastStats/majors.png";
+import schools from "../assets/pastStats/schools.png";
+import numParticipants from "../assets/pastStats/numParticipants.png";
 import AmanProfileImage from "../assets/teamProfile/Aman.png";
 import BrendaProfileImage from "../assets/teamProfile/Brenda.png";
 import JainamProfileImage from "../assets/teamProfile/Jainam.png";
@@ -214,6 +217,42 @@ const AboutSection = () => {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+
+      <div style={{ marginTop: 50 }}>
+        <div
+          className="heading-3"
+          style={{
+            // font: "italic normal bold 35px/45px Montserrat",
+            textAlign: "center",
+            color: "#FFFFFF"
+          }}
+        >
+          <span>PAST STATS</span>
+          <br />
+          <br />
+        </div>
+        <div>
+        <img
+            src={numParticipants}
+            className="numParticipants"
+            style={{display: "block", margin: "0 auto"}}
+          />
+        </div>
+        <div style={{display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "center"
+              }}>
+                
+              <div>
+                <img src={schools} />
+              </div>
+              <div>
+                <img src={majors} />
+              </div>
         </div>
       </div>
     </div>

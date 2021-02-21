@@ -89,6 +89,16 @@ const TracksSection = props => {
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
       <div className="heading-1" style={{ textAlign: "center" }}>
+        Welcome to SF Hacks 2021: Life Hacks
+      </div>
+      <div className="reg-1" style={{ textAlign: "center" }}>
+      This is our first virtual hackathon and we can’t wait to produce a brand new experience for our hackers.
+       The event will highlight the new ideologies we developed through this pandemic.
+        We believe that in times of chaos, there is opportunity.
+         Let’s develop programs, build applications, and find solutions to change our society for the better.
+      </div>
+      <br />
+      <div className="heading-1" style={{ textAlign: "center" }}>
         TRACKS
       </div>
       <Grid container spacing={5}>
