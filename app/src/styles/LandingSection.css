@@ -81,7 +81,8 @@
     padding: 15px 60px;
   }
   .landing-parent-container {
-    background-image: url("../assets/landingSection/background.png");
+    background-image: none;
+    padding: 10px 0px;
   }
   .landing-img-logo {
     /* height: 340px; */
