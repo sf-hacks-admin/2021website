@@ -22,42 +22,45 @@ const KeynoteSpeakers = () => {
     }
   ];
   return (
-    <div
-      className="mainContainer-1 background-img-1"
-      style={{ backgroundImage: `url(${background})` }}
-    >
+    <div className="parentContainer-1">
       <div
-        className="heading-1"
-        style={{ textAlign: "center", color: "#ffffff" }}
+        className="mainContainer-1 background-img-1"
+        style={{ backgroundImage: `url(${background})` }}
       >
-        KEYNOTE SPEAKERS
-      </div>
-      {keynoteSpeakers.map(keynoteSpeaker => (
         <div
-          style={{
-            marginTop: "80px",
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-around",
-            alignItems: "center",
-            alignContent: "center"
-          }}
+          className="heading-1"
+          style={{ textAlign: "center", color: "#ffffff" }}
         >
-          <div style={{}}>
-            <img
-              src={keynoteSpeaker.imgSrc}
-              className="keynoteSpeakerPicture"
-            />
-          </div>
-          <div className="reg-2 keynoteSpeakerText" style={{}}>
-            <div className="heading-3">{keynoteSpeaker.name}</div>
-            <br />
-            <div style={{ fontWeight: "bold" }}>{keynoteSpeaker.title}</div>
-            <br />
-            <div>{keynoteSpeaker.description}</div>
-          </div>
+          KEYNOTE SPEAKERS
         </div>
-      ))}
+
+        {keynoteSpeakers.map(keynoteSpeaker => (
+          <div
+            style={{
+              marginTop: "80px",
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "space-around",
+              alignItems: "center",
+              alignContent: "center"
+            }}
+          >
+            <div style={{}}>
+              <img
+                src={keynoteSpeaker.imgSrc}
+                className="keynoteSpeakerPicture"
+              />
+            </div>
+            <div className="reg-2 keynoteSpeakerText" style={{}}>
+              <div className="heading-3">{keynoteSpeaker.name}</div>
+              <br />
+              <div style={{ fontWeight: "bold" }}>{keynoteSpeaker.title}</div>
+              <br />
+              <div>{keynoteSpeaker.description}</div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

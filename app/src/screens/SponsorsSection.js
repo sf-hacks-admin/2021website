@@ -168,49 +168,65 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <div
-      className="mainContainer-1 background-img-1 "
-      id="ourSponsors"
-      style={{ backgroundImage: `url(${backgroundImg})` }}
-    >
-      <div>
-        <div className="title" style={{ paddingBottom: "20px" }}>
-          <span className="heading-2" style={{color:"white", marginTop:"-60px", marginBottom:"30px"}}>SPONSORS</span>
-        </div>
-        <div
-          className="sponsor-style div-shadow"
-          style={{
-            // background: "white",
-            // // marginLeft: "100px",
-            // // marginRight: "100px",
-            // padding: "20px",
-            // height:"700px",
-            // width:"auto"
-          }}
-        >
-          <div className="sponsor-content-container">
-            <div className="sponsor-content-inner">
-              {sponsors.map(sponsor => (
-                <div key={sponsor.name} className="sponsor-padding">
-                  <div>
-                    <a href={sponsor.link} target="_blank">
-                      <img
-                        src={sponsor.logo}
-                        alt={sponsor.name}
-                        className="img-style"
-                      />
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
+    <div className="parentContainer-1">
+      <div
+        className="mainContainer-1 background-img-1 "
+        id="ourSponsors"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        <div>
+          <div className="title" style={{ paddingBottom: "20px" }}>
+            <span
+              className="heading-2"
+              style={{
+                color: "white",
+                marginTop: "-60px",
+                marginBottom: "30px"
+              }}
+            >
+              SPONSORS
+            </span>
           </div>
-          <div style={{ textAlign: "center" }}>
-            <a href="https://sfhacks2021.typeform.com/to/qqAT73M7" target="_blank">
-              <Button variant="contained" className="landing-button-font-1">
-                Become a Sponsor
-              </Button>
-            </a>
+          <div
+            className="sponsor-style div-shadow"
+            style={
+              {
+                // background: "white",
+                // // marginLeft: "100px",
+                // // marginRight: "100px",
+                // padding: "20px",
+                // height:"700px",
+                // width:"auto"
+              }
+            }
+          >
+            <div className="sponsor-content-container">
+              <div className="sponsor-content-inner">
+                {sponsors.map(sponsor => (
+                  <div key={sponsor.name} className="sponsor-padding">
+                    <div>
+                      <a href={sponsor.link} target="_blank">
+                        <img
+                          src={sponsor.logo}
+                          alt={sponsor.name}
+                          className="img-style"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <a
+                href="https://sfhacks2021.typeform.com/to/qqAT73M7"
+                target="_blank"
+              >
+                <Button variant="contained" className="landing-button-font-1">
+                  Become a Sponsor
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

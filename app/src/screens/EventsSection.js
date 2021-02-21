@@ -57,7 +57,7 @@ const EventsSection = () => {
     adaptiveHeight: true
   };
   return (
-    <div>
+    <div className="parentContainer-1">
       <div
         className=" mainContainer-1 background-img-1"
         style={{

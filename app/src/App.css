@@ -24,10 +24,10 @@ a:active {
 a:hover {
   opacity: 80%;
   cursor: pointer;
-  -moz-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .heading-1 {
@@ -61,11 +61,19 @@ a:hover {
   opacity: 1;
 }
 
+.parentContainer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mainContainer-1 {
   padding: 50px;
   padding-top: 270px;
   padding-bottom: 320px;
   margin-top: -300px;
+  max-width: 3000px;
+  width: 100%;
 }
 
 .background-img-1 {
@@ -76,7 +84,7 @@ a:hover {
 .div-shadow {
   /* box-shadow: 5px 5px 5px #8b2eff; */
   background: transparent 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0px 40px #8B2EFFB2;
+  box-shadow: 0px 0px 40px #8b2effb2;
   border-radius: 10px;
   opacity: 1;
 }
