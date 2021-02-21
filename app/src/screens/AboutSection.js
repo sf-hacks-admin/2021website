@@ -117,7 +117,7 @@ const AboutSection = () => {
               color: "#FFFFFF"
             }}
           >
-            <div className="heading-3">OUR MISSION</div>
+            <div className="mission">OUR MISSION</div>
             <br />
             Our organization’s purpose is to plan and host California’s most talented collegiate hackers,
              designers, and developers, to a 24-hour hackathon.
@@ -237,22 +237,18 @@ const AboutSection = () => {
         <img
             src={numParticipants}
             className="numParticipants"
-            style={{display: "block", margin: "0 auto"}}
           />
         </div>
         <div style={{display: "flex",
               flexDirection: "row",
               flexWrap: "wrap",
               justifyContent: "center",
-              alignItems: "center"
+              alignItems: "center",
+             
               }}>
-                
-              <div>
-                <img src={schools} />
-              </div>
-              <div>
-                <img src={majors} />
-              </div>
+                           
+            <img className="statCard" src={schools}/>
+            <img className="statCard" src={majors}/>
         </div>
       </div>
     </div>

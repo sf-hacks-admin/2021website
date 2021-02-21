@@ -91,7 +91,7 @@ const TracksSection = props => {
       <div className="heading-1" style={{ textAlign: "center" }}>
         Welcome to SF Hacks 2021: Life Hacks
       </div>
-      <div className="reg-1" style={{ textAlign: "center" }}>
+      <div className="welcomeHackers">
       This is our first virtual hackathon and we can’t wait to produce a brand new experience for our hackers.
        The event will highlight the new ideologies we developed through this pandemic.
         We believe that in times of chaos, there is opportunity.

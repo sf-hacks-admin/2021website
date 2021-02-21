@@ -85,6 +85,47 @@
   margin-top: 20px 
 }
 
+.statCard{
+  margin: 40px;
+  width: 450px;
+}
+
+.numParticipants{
+  display: block;
+  margin: 0 auto;
+  width: 650px;
+}
+
+.mission{
+  font: italic normal bold 40px/60px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1300px){
+  .aboutPicture{
+    height: 370px;
+  }
+}
+
+@media only screen and (max-width: 1160px){
+  .statCard{
+    width: 400px;
+    margin: 20px;
+  }
+  .aboutPicture{
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 860px){
+  .statCard{
+    height: 550px;
+    width: auto;
+    margin: 20px;
+  }
+}
+
 @media only screen and (max-width: 700px){
   .aboutPicture{
     width:350px;
@@ -93,6 +134,10 @@
   .teamPic{
     width: 350px;
     height: auto;
+  }
+
+  .numParticipants{
+    width: 400px;
   }
 }
 
@@ -108,11 +153,23 @@
   #mobileAboutCol {
     margin: 20px 0;
   }
+
+  .numParticipants{
+    width: 325px;
+  }
 }
 
 @media only screen and (max-width: 1000px){
+  .statCard{
+    width:350px;
+    margin: 15px;
+  }
   .ourTeam{
     text-align: center;
+  }
+
+  .numParticipants{
+    width: 500px;
   }
 }
 
