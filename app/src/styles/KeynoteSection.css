@@ -1,0 +1,28 @@
+.keynoteSpeakerPicture {
+  height: auto;
+  width: 400px;
+  min-width: 200px;
+}
+
+.keynoteSpeakerText {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 40px;
+  min-width: 200px;
+  width: 60vw;
+}
+
+@media only screen and (max-width: 400px) {
+  .keynoteSpeakerPicture {
+    width: 200px;
+    min-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .keynoteSpeakerText {
+    text-align: center;
+    margin-left: 0px;
+    width: 80vw;
+  }
+}
