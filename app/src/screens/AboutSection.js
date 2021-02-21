@@ -83,10 +83,11 @@ const AboutSection = () => {
         className="heading-1"
         style={{
           textAlign: "center",
-          marginTop: "-60px"
+          marginTop: "-60px",
+          color: "#FFFFFF"
         }}
       >
-        <span>ABOUT</span>
+        <span>ABOUT US</span>
       </div>
       <div style={{ marginTop: 50 }}>
         {/* <div className="headingText2">
@@ -107,18 +108,25 @@ const AboutSection = () => {
             id="mobileAboutCol"
             className="reg-2"
             style={{
-              width: 430,
+              width: 450,
               // marginBottom: 20,
               textAlign:"center",
+              color: "#FFFFFF"
             }}
           >
-            Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
+            <div className="heading-3">OUR MISSION</div>
+            <br />
+            Our organization’s purpose is to plan and host California’s most talented collegiate hackers,
+             designers, and developers, to a 24-hour hackathon.
+              We work towards giving students an environment for maximum innovation, collaboration, and education.
+          </div>
+
+          {/* Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
             hackathon and we can’t wait to produce a brand new experience for
             our hackers. The event will highlight the new ideologies we
             developed through this pandemic. We believe that in times of chaos,
             there is opportunity. Let’s develop programs, build applications,
-            and find solutions to change our society for the better.
-          </div>
+            and find solutions to change our society for the better. */}
           <div id="mobileAboutCol" >
             <img src={aboutPicture} className="aboutPicture" />
           </div>
@@ -136,15 +144,15 @@ const AboutSection = () => {
           alignItems: "center"
         }}
       >
-        <div>
+        {/* <div>
           <img
             src={teamPic}
             id="mobileAboutCol" 
             className="teamPic"
             //style={{ height: 275, width: "auto", marginTop: 20 }}
           />
-        </div>
-        <div
+        </div> */}
+        {/* <div
           id="mobileAboutCol" 
           className="reg-2"
           style={{
@@ -152,6 +160,7 @@ const AboutSection = () => {
             // marginBottom: 20,
             font: "normal normal normal Open Sans",
             textAlign:"center",
+            color : "#FFFFFF"
           }}
         >
           <div className="heading-3">OUR MISSION</div>
@@ -160,7 +169,7 @@ const AboutSection = () => {
           talented collegiate hackers, designers, and developers, to a 24-hour
           hackathon. We work towards giving students an environment for maximum
           innovation, collaboration, and education.
-        </div>
+        </div> */}
       </div>
 
       <div style={{ marginTop: 50 }}>
@@ -168,7 +177,8 @@ const AboutSection = () => {
           className="heading-3"
           style={{
             // font: "italic normal bold 35px/45px Montserrat",
-            textAlign: "center"
+            textAlign: "center",
+            color: "#FFFFFF"
           }}
         >
           <span>OUR TEAM</span>
@@ -198,7 +208,7 @@ const AboutSection = () => {
                     style={{ height: 120, width: 120, borderRadius: 70 }}
                   />
                 </div>
-                <div className="profileName" style={{ marginTop: 6 }}>
+                <div className="profileName" style={{ marginTop: 6, color:"#FFFFFF" }}>
                   {profile.name}
                 </div>
               </div>
