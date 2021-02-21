@@ -26,6 +26,9 @@ import StickerMule from "../assets/sponsors/sticker-mule.png";
 import Twilio from "../assets/sponsors/twilio.png";
 import IBM from "../assets/sponsors/ibm.png";
 import Walmart from "../assets/sponsors/walmart.png";
+import Notivize from "../assets/sponsors/notivize.png";
+import Pathrise from "../assets/sponsors/pathrise.png";
+import Echoar from "../assets/sponsors/echoar.png";
 import Wolfram from "../assets/sponsors/wolf.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 import { Button } from "@material-ui/core";
@@ -83,11 +86,11 @@ const SponsorsSection = () => {
     //   logo: Autodesk,
     //   link: "https://www.autodesk.com"
     // },
-    // {
-    //   name: "Weight Watchers",
-    //   logo: WeightWatchers,
-    //   link: "https://www.weightwatchers.com/us/"
-    // },
+    {
+      name: "Weight Watchers",
+      logo: WeightWatchers,
+      link: "https://www.weightwatchers.com/us/"
+    },
     // {
     //   name: "Lyft",
     //   logo: Lyft,
@@ -108,14 +111,18 @@ const SponsorsSection = () => {
     //   logo: COB,
     //   link: "https://cob.sfsu.edu"
     // },
-    // {
-    //   name: "Notivize",
-    //   logo: Notivize,
-    // },
-    // {
-    //   name: "Pathrise",
-    //   logo: Pathrise,
-    // },
+    {
+      name: "Notivize",
+      logo: Notivize,
+    },
+    {
+      name: "Pathrise",
+      logo: Pathrise,
+    },
+    {
+      name: "Echo AR",
+      logo: Echoar,
+    },
     // {
     //   name: "Desmos",
     //   logo: Desmos,
