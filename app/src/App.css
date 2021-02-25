@@ -22,12 +22,11 @@ a:active {
 }
 
 a:hover {
-  opacity: 80%;
   cursor: pointer;
-  -moz-transition: all 0.2s ease-in;
+  /* -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; */
 }
 
 .heading-1 {
