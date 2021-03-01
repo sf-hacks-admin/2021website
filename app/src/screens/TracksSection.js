@@ -62,25 +62,25 @@ const TracksSection = props => {
       imgSrc: educationImg,
       title: "EDUCATION",
       description:
-        "Due to the pandemic, many of us around the globe are struggling to adapt to this environment. This goes for students, teachers, and employees in the workforce. We challenge our hackers to rethink their own experiences in school and explore ways to better society’s approach to Education."
+        "Due to the pandemic, many of us around the globe are struggling to adapt to this environment. We challenge our hackers to rethink their own experiences in school and explore ways to better society’s approach to Education."
     },
     {
       imgSrc: communicationImg,
       title: "COMMUNICATION",
       description:
-        "We are currently limited to the amount of connectivity we have with our loved ones. From families across the world to friends across a state, we are constricted to communication via technology. This track is intended to motivate hackers to find hacks to help rebuild the bridge to Communication."
+        "From families across the world to friends across a state, we are constricted to communication via technology. We want our hackers to find hacks to help rebuild the bridge to Communication."
     },
     {
       imgSrc: healthImg,
       title: "HEALTH",
       description:
-        "From recent events, our health is more crucial than ever. We should maintain our physical and mental health in these abnormal times. With more than half the nation lacking in healthcare, the strive for solutions is more prevalent than ever. This challenge is aimed towards hackers who want to explore Health Hacks."
+        "With more than half the nation lacking in healthcare, the strive for solutions is more prevalent than ever. This challenge is crafted for hackers who want to explore Health Hacks. "
     },
     {
       imgSrc: homeImg,
       title: "HOME",
       description:
-        "The world has been at a stand still as most people have shifted their lives to staying home. We have utilized tips/tricks to learn, work, teach, and entertain from the comfort of our household. For this track, we challenge our hackers to reflect on their own new found skill set and produce applications to improve one’s life from Home."
+        "We have learned how to work, teach, study, and entertain from the comfort of our household. We challenge our hackers to reflect on their own newfound skill set and produce applications to improve one’s life from Home."
     }
   ];
   return (

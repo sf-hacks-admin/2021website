@@ -30,6 +30,10 @@ import Notivize from "../assets/sponsors/notivize.png";
 import Pathrise from "../assets/sponsors/pathrise.png";
 import Echoar from "../assets/sponsors/echoar.png";
 import Wolfram from "../assets/sponsors/wolf.png";
+import Stream from "../assets/sponsors/stream.png";
+import Adobe from "../assets/sponsors/adobe.png";
+import Business from "../assets/sponsors/business.png";
+import Jetbrains from "../assets/sponsors/jetbrains.png";
 import WeightWatchers from "../assets/sponsors/weight-watchers.png";
 import { Button } from "@material-ui/core";
 // import YerbaMate from "../assets/sponsors/guayaki-yerba-mate.png";
@@ -145,6 +149,26 @@ const SponsorsSection = () => {
       name: "Wolfram Alpha",
       logo: Wolfram,
       link: "https://www.wolframalpha.com/"
+    },
+    {
+      name: "Adobexd",
+      logo: Adobe,
+      link: "https://www.adobe.com/products/xd.html"
+    },
+    {
+      name: "JetBrains",
+      logo: Jetbrains,
+      link: "https://www.jetbrains.com/"
+    },
+    {
+      name: "SFSU Department of Business",
+      logo: Business,
+      link: "https://cob.sfsu.edu/"
+     },
+    {
+      name: "Stream",
+      logo: Stream,
+      link: "https://www.stream.club/"
     }
     // {
     //   name: "Gogo Squeez",

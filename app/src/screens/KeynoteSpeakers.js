@@ -1,7 +1,9 @@
 import React from "react";
 import AnnHiatt from "../assets/keynoteSpeakers/annHiatt.png";
 import LynnMahoney from "../assets/keynoteSpeakers/lynnMahoney.png";
+import PaulKlein from "../assets/keynoteSpeakers/paul-cto.JPG";
 import background from "../assets/keynoteSpeakers/speakerBackground.svg";
+
 import "../styles/KeynoteSection.css";
 
 const KeynoteSpeakers = () => {
@@ -19,6 +21,12 @@ const KeynoteSpeakers = () => {
       description:
         "Lynn Mahoney is the first woman appointed to serve as the President of San Francisco State University. After graduating from Stanford/Rutgers University, she embarked on a memorable career and is now one of the most influential women in San Francisco. If you want to learn how to succeed as a woman in the corporate world, you don’t want to miss her speech.",
       imgSrc: LynnMahoney
+    },
+    {
+      name: "PAUL KLEIN",
+      title: "C0-Founder of Stream Club",
+      description: "Paul Klein is an SFSU alumnus (grad. 2017) who founded SF Hacks and went on to lead the Login Engineering Team at Twilio. In 2020, Paul co-founded Stream Club with fellow SFSU alumnus, Lan Paje, and together they are building a better way to live stream on the internet. Paul will share how to make the most out of your university experience and his story of how he co-launched a successful startup. If you're looking to become an entrepreneur, Paul's speech will be the one for you!",
+      imgSrc: PaulKlein
     }
   ];
   return (
