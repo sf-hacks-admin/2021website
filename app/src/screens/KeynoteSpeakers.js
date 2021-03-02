@@ -24,7 +24,7 @@ const KeynoteSpeakers = () => {
     },
     {
       name: "PAUL KLEIN",
-      title: "C0-Founder of Stream Club",
+      title: "Co-Founder of Stream Club",
       description: "Paul Klein is an SFSU alumnus (grad. 2017) who founded SF Hacks and went on to lead the Login Engineering Team at Twilio. In 2020, Paul co-founded Stream Club with fellow SFSU alumnus, Lan Paje, and together they are building a better way to live stream on the internet. Paul will share how to make the most out of your university experience and his story of how he co-launched a successful startup. If you're looking to become an entrepreneur, Paul's speech will be the one for you!",
       imgSrc: PaulKlein
     }

@@ -31,7 +31,7 @@ const Footer = () => {
     {
       name:'discord',
       icon:discordIcon,
-      link:'https://discord.gg/7RMDcNU',
+      link:'https://discord.gg/Sp8UrnFd',
     },
   ];
 
