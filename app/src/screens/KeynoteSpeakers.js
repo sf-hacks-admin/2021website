@@ -1,7 +1,7 @@
 import React from "react";
 import AnnHiatt from "../assets/keynoteSpeakers/annHiatt.png";
-import LynnMahoney from "../assets/keynoteSpeakers/lynnMahoney.png";
-import PaulKlein from "../assets/keynoteSpeakers/paul-cto.JPG";
+import LynnMahoney from "../assets/keynoteSpeakers/lynn.png";
+import PaulKlein from "../assets/keynoteSpeakers/paul.png";
 import background from "../assets/keynoteSpeakers/speakerBackground.svg";
 
 import "../styles/KeynoteSection.css";
@@ -19,7 +19,7 @@ const KeynoteSpeakers = () => {
       name: "LYNN MAHONEY",
       title: "President of San Francisco State University",
       description:
-        "Lynn Mahoney is the first woman appointed to serve as the President of San Francisco State University. After graduating from Stanford/Rutgers University, she embarked on a memorable career and is now one of the most influential women in San Francisco. If you want to learn how to succeed as a woman in the corporate world, you don’t want to miss her speech.",
+        "Lynn Mahoney serves as the 14th president of San Francisco State University and the first woman appointed to serve as the University’s president in a permanent capacity. There are many routes to leadership and even more ways of leading. President Mahoney will share her thoughts on higher education leadership and the lessons it holds for others, particularly women and Black, Indigenous, and People of Color (BIPOC), in many fields.",
       imgSrc: LynnMahoney
     },
     {
