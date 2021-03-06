@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "../styles/EventsSection.css";
+import backgroundImg from "../assets/eventSection/backgroundImg.svg";
 
 const EventsSection = () => {
   const [currentEvent, setCurrentEvent] = useState(0);
@@ -37,6 +38,14 @@ const EventsSection = () => {
           slidesToShow: 1,
           slidesToScroll: 1
         }
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
     ],
     beforeChange: (current, next) => {
@@ -48,11 +57,18 @@ const EventsSection = () => {
     adaptiveHeight: true
   };
   return (
-    <div>
-      <div style={{ textAlign: "center" }}>
-        <span className="headingText1 highlight">Events</span>
-      </div>
-      <div className="container">
+    <div className="parentContainer-1">
+      <div
+        className=" mainContainer-1 background-img-1"
+        style={{
+          backgroundImage: `url(${backgroundImg})`,
+          paddingBottom: 50,
+          paddingTop: 150
+        }}
+      >
+        <div style={{ textAlign: "center", marginBottom: 50, color: "white" }}>
+          <span className="heading-2">PAST EVENTS</span>
+        </div>
         <div className="innerContainer">
           <Slider {...settings}>
             {events.map((event, i) => (
@@ -72,6 +88,10 @@ const EventsSection = () => {
                       opacity: currentEvent === i ? "1.0" : "0.2"
                     }}
                   >
+                    {/* <img
+                      src={require("../assets/cardimage.png")}
+                      style={{ width: "80%", height: "auto" }}
+                    /> */}
                     <div className="eventTitle">{event.title}</div>
                     <div className="eventDate">{event.date}</div>
                     <div>{event.time}</div>

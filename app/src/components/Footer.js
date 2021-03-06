@@ -1,10 +1,11 @@
 import React from "react";
-import facebookIcon from '../assets/Facebook_Icon.svg';
-import instagramIcon from '../assets/Instagram_Icon.svg';
-import twitterIcon from '../assets/Twitter_Icon.svg';
-import linkedinIcon from '../assets/LinkedIn_Icon.svg';
-import discordIcon from '../assets/Discord_Icon.svg'
+import facebookIcon from '../assets/socialMedia/fb.png';
+import instagramIcon from '../assets/socialMedia/ig.png';
+import twitterIcon from '../assets/socialMedia/tw.png';
+import linkedinIcon from '../assets/socialMedia/linkedin.png';
+import discordIcon from '../assets/socialMedia/discord.png';
 
+import "../styles/Footer.css"
 const Footer = () => {
   const socials = [
     {
@@ -30,17 +31,17 @@ const Footer = () => {
     {
       name:'discord',
       icon:discordIcon,
-      link:'https://discord.gg/7RMDcNU',
+      link:'https://discord.gg/sxQjq7SjjW',
     },
   ];
 
   return (
-    <div style={{background:'black', padding:'30px 0'}}>
-      <div style={{ display: 'flex', width:'350px', margin:'0 auto'}}>
+    <div style={{background: "#240246" ,padding:'20px 0'}}>
+      <div style={{ }} className="footer-style">
         {socials.map( social => (
           <div key={social.name}>
             <a href={social.link}>
-              <img src={social.icon} style={{width:'50px' , margin:'10px', borderRadius:'100%', background:'black'}}/>
+              <img src={social.icon} style={{}} className="social-icons"/>
             </a>
           </div>
         ))}
@@ -51,8 +52,12 @@ const Footer = () => {
       </div>
 
       <div className="footer-main-container">
+        <a href="http://mlh.io/code-of-conduct"><p className="footer-text"><u>MLH Code of Conduct</u></p></a>
+      </div>
+
+      <div className="footer-main-container">
         {/* <span className="footer-text">Made with ♡ by SF Hacks</span> */}
-        <span className="footer-text">Made with 💜 by SF Hacks</span>
+        <p className="footer-text">Made with 💜 by SF Hacks</p>
       </div>
     </div>
   );

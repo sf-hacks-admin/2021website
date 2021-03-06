@@ -14,14 +14,14 @@
   letter-spacing: 0;
   color: #000;
   opacity: 1;
-  background-color: #d7b5ff;
+
   margin: 0;
   padding: 0;
   line-height: 45px;
 }
 
 .sponsor-content-container {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
@@ -43,3 +43,39 @@
   height: 120px;
   width: auto;
 }
+
+.sponsor-style{
+      background:white;
+      border-radius: 30px;
+      padding: 20px;
+      height:1100px;
+      width:70%;
+      display: block;
+      margin: 0 auto;
+      align-items: center;
+}
+
+.welcomeHackers{
+  text-align: center;
+  margin-left: 150;
+  margin-right: 150;
+}
+
+@media only screen and (max-width: 1260px){
+  .sponsor-style{
+    width: 85%;
+    height:auto;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 960px){
+  .sponsor-style{
+    width: 95%;
+    height:auto;
+    padding: 10px;
+  }
+}
+
+
+

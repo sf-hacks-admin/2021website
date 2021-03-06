@@ -11,16 +11,21 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import SponsorsSection from "./screens/SponsorsSection";
 import FAQSection from "./screens/FAQSection";
+import TracksSection from "./screens/TracksSection";
+import KeynoteSpeakers from "./screens/KeynoteSpeakers";
 
 function App() {
   return (
     <div>
       <Navbar />
       <LandingSection />
-      <EventsSection />
-      <AboutSection />
+      <div style={{ paddingBottom: 200 }} />
+      <TracksSection />
+      <KeynoteSpeakers />
       <FAQSection />
       <SponsorsSection />
+      <AboutSection />
+      {/* <EventsSection /> */}
       <Footer />
     </div>
   );

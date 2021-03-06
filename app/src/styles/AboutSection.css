@@ -40,6 +40,10 @@
   color: #ffffff;
 }
 
+#mobileAboutCol {
+  margin: 0 50px 20px 50px;
+}
+
 .about-h1 {
   font: normal normal bold 45px/58px "Montserrat";
   letter-spacing: 3px;
@@ -64,4 +68,131 @@
   width: 210px;
   height: 220px;
 }
+
+.ourTeam {
+  font: italic normal bold 35px/45px Montserrat;
+  margin-left: 60px;
+}
+
+.aboutPicture {
+  height: 500px;
+  width: auto;
+}
+
+.teamPic {
+  height: 275px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.statCard {
+  margin: 40px;
+  width: 450px;
+}
+
+.numParticipants {
+  display: block;
+  margin: 0 auto;
+  width: 650px;
+  height: auto;
+}
+
+.mission {
+  font: italic normal bold 40px/60px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.container-1{
+  padding: 50px;
+  padding-top: 270px;
+  margin-top: -300px;
+  max-width: 3000px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .aboutPicture {
+    height: 370px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .statCard {
+    width: 350px;
+    margin: 15px;
+  }
+  .ourTeam {
+    text-align: center;
+  }
+  
+  .numParticipants {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .statCard {
+    width: 400px;
+    margin: 20px;
+  }
+  .aboutPicture {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .statCard {
+    height: 550px;
+    width: auto;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutPicture {
+    width: 350px;
+    height: auto;
+  }
+  .teamPic {
+    width: 350px;
+    height: auto;
+  }
+
+  .numParticipants {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-1 {
+    padding: 5px;
+    padding-top: 250px;
+    margin-top: -300px;
+  }
+
+  .statCard {
+    height: 400px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutPicture {
+    width: 260px;
+    height: auto;
+  }
+  .teamPic {
+    width: 260px;
+    height: auto;
+  }
+  #mobileAboutCol {
+    margin: 20px 0;
+  }
+
+  .numParticipants {
+    width: 325px;
+  }
+}
+
 /* end about action */

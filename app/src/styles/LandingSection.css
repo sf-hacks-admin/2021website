@@ -1,0 +1,110 @@
+.landing-font-1 {
+  text-align: center;
+  font: italic normal bold 25px/30px Montserrat;
+  letter-spacing: 1.5px;
+  color: #2b173f;
+  opacity: 1;
+}
+
+.landing-font-2 {
+  text-align: center;
+  font: italic normal bold 35px/45px Montserrat;
+  letter-spacing: 2.05px;
+  color: #2b173f;
+  opacity: 1;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f5edff;
+  border-radius: 25px;
+}
+
+.landing-font-3 {
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal normal 23px/28px Open Sans;
+  letter-spacing: 1.5px;
+  color: #2b173f;
+  opacity: 1;
+}
+
+.landing-button-font-1 {
+  text-align: center !important;
+  font: italic normal bold 25px/30px Montserrat !important;
+  letter-spacing: 2.05px !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  margin-bottom: 20px !important;
+  padding: 15px 60px !important;
+  background-color: #6b3ab9 !important;
+  border-radius: 40px !important;
+}
+
+.landing-parent-container {
+  /* min-height: calc(100vh - 80px); */
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-image: url("../assets/landingSection/background.png");
+  padding: 140px 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.landing-img-logo {
+  /* margin-bottom: 20px; */
+  height: 340px;
+  width: auto;
+}
+
+@media only screen and (max-width: 690px) {
+  .landing-font-1 {
+    font: italic normal bold 25px/30px Montserrat;
+  }
+  .landing-font-2 {
+    font: italic normal bold 30px/40px Montserrat;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .landing-font-3 {
+    font: normal normal normal 18px/23px Open Sans;
+  }
+  .landing-button-font-1 {
+    font: italic normal bold 20px/25px Montserrat !important;
+    padding: 15px 60px;
+  }
+  .landing-parent-container {
+    background-image: none;
+    padding: 10px 0px;
+  }
+  .landing-img-logo {
+    /* height: 340px; */
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .landing-font-2 {
+    font: italic normal bold 25px/35px Montserrat;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .landing-button-font-1 {
+    font: italic normal bold 18px/23px Montserrat !important;
+    padding: 15px 60px;
+  }
+  .landing-img-logo {
+    margin-bottom: 20px;
+    height: 320px;
+    height: 250px;
+    width: auto;
+  }
+}
