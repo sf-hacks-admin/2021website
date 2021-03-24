@@ -189,9 +189,11 @@ const Recap = () => {
             }
           />
         </div>
-        <div className="reg-1" style={{ textAlign: "center", marginTop: 40 }}>
+        <a href = "https://sf-hacks.devpost.com/project-gallery" target="_blank" className="reg-1" style={{ textAlign: "center", marginTop: 40, decoration: "None" }}>
+        <div>
           CLICK HERE TO VIEW ALL PROJECTS!
         </div>
+        </a>
       </div>
     </div>
   );

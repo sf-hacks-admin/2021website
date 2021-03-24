@@ -89,7 +89,7 @@ const LandingSection = props => {
         Check out our winners below!
         {props.width === "xs" || props.width === "sm" ? <br /> : " "}
       </div>
-      <a href="https://sfhacks2021.typeform.com/to/jGdkmdK8" target="_blank">
+      <a href="https://forms.gle/oGzjQWEXdYci5cTL7" target="_blank">
         <Button variant="contained" className="landing-button-font-1">
           SUBSCRIBE TO NEWSLETTER
         </Button>
