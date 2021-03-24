@@ -86,20 +86,19 @@ const LandingSection = props => {
         collegiate hackathon.
       </div>
       <div className="landing-font-2">
-        March 5-7, 2021
-        {props.width === "xs" || props.width === "sm" ? <br /> : " "}// fully
-        virtual
+        Check out our winners below!
+        {props.width === "xs" || props.width === "sm" ? <br /> : " "}
       </div>
       <a href="https://sfhacks2021.typeform.com/to/jGdkmdK8" target="_blank">
         <Button variant="contained" className="landing-button-font-1">
-          APPLY NOW
+          SUBSCRIBE TO NEWSLETTER
         </Button>
       </a>
-      <div className="landing-font-3">
+      {/* <div className="landing-font-3">
         <a href="https://sfhacks2020.typeform.com/to/O8sT9jVk" target="_blank">
           Become a mentor
         </a>
-      </div>
+      </div> */}
       {windowDimensions.width <= 690 ? (
         <div
           style={{

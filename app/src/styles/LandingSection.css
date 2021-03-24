@@ -31,12 +31,12 @@
 
 .landing-button-font-1 {
   text-align: center !important;
-  font: italic normal bold 25px/30px Montserrat !important;
+  font: italic normal bold 23px/28px Montserrat !important;
   letter-spacing: 2.05px !important;
   color: #ffffff !important;
   opacity: 1 !important;
   margin-bottom: 20px !important;
-  padding: 15px 60px !important;
+  padding: 12px 55px !important;
   background-color: #6b3ab9 !important;
   border-radius: 40px !important;
 }
