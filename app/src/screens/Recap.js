@@ -23,6 +23,7 @@ const WinnerCard = props => {
         alignContent: "center",
         backgroundColor: "#ffffff",
         margin: "20px",
+        marginTop: 0,
         borderRadius: 20
       }}
     >
@@ -147,7 +148,7 @@ const Recap = () => {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            alignItems: "center",
+            alignItems: "flex-end",
             justifyContent: "center"
           }}
         >

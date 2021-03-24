@@ -67,20 +67,29 @@ const Navbar = props => {
           </div>
         ) : (
           <>
-            <div style={{ marginLeft: 50, display:"flex", justifyContent:"center", alignItems:"center", }}>
+            <div
+              style={{
+                marginLeft: 50,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
               <img src={SFHACKS_Logo} style={{ height: 80, width: "auto" }} />
             </div>
-            <div style={{
-              display:"flex",
-              justifyContent:"center",
-              alignItems:"center",
-            }}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
               <ul
                 style={{
                   // paddingTop: 10,
-                  display:"flex",
-                  justifyContent:"center",
-                  alignItems:"center",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                   paddingRight: 180,
                   font: "normal normal normal 19px/28px Open Sans"
                 }}
@@ -90,7 +99,7 @@ const Navbar = props => {
                     <a href={navLink.link}>{navLink.title}</a>
                   </li>
                 ))}
-                <li>{applyButton}</li>
+                {/* <li>{applyButton}</li> */}
               </ul>
             </div>
           </>
@@ -123,9 +132,9 @@ const Navbar = props => {
                   <a href={navLink.link}>{navLink.title}</a>
                 </ListItem>
               ))}
-              <ListItem style={{ display: "flex", justifyContent: "center" }}>
+              {/* <ListItem style={{ display: "flex", justifyContent: "center" }}>
                 {applyButton}
-              </ListItem>
+              </ListItem> */}
             </List>
           </div>
         </Drawer>

@@ -46,10 +46,10 @@
 }
 
 .winner1-outterdiv {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 .winner2-outterdiv {
-  padding-bottom: 100px;
+  padding-bottom: 75px;
 }
 .winner3-outterdiv {
   padding-bottom: 0px;
@@ -82,7 +82,6 @@
   .recap_countries {
     width: 250px;
   }
-
   .recap_presenters {
     width: 250px;
   }
