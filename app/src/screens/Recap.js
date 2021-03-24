@@ -84,7 +84,7 @@ const Recap = () => {
   };
   const winner1 = {
     teamName: "TEAM SNU",
-    imgSrc: secondPlace,
+    imgSrc: firstPlace,
     position: "1ST PLACE",
     projectName: "CHECKUP",
     description:
@@ -92,7 +92,7 @@ const Recap = () => {
   };
   const winner3 = {
     teamName: "TEAM TREE",
-    imgSrc: secondPlace,
+    imgSrc: thirdPlace,
     position: "3RD PLACE",
     projectName: "HEALTHY HABITS",
     description:
@@ -172,7 +172,7 @@ const Recap = () => {
         >
           <WinnerCard
             teamName={"TEAM BEAM"}
-            imgSrc={secondPlace}
+            imgSrc={mobileHack}
             position={"BEST MOBILE HACK"}
             projectName={"BEAM"}
             description={
@@ -181,7 +181,7 @@ const Recap = () => {
           />
           <WinnerCard
             teamName={"THE DREAM TEAM"}
-            imgSrc={secondPlace}
+            imgSrc={beginnerHack}
             position={"BEST BEGINNING HACK"}
             projectName={"VIBE"}
             description={
