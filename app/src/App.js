@@ -13,6 +13,7 @@ import SponsorsSection from "./screens/SponsorsSection";
 import FAQSection from "./screens/FAQSection";
 import TracksSection from "./screens/TracksSection";
 import KeynoteSpeakers from "./screens/KeynoteSpeakers";
+import Recap from "./screens/Recap"
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <Navbar />
       <LandingSection />
       <div style={{ paddingBottom: 200 }} />
-      <TracksSection />
+      <Recap />
+      {/* <TracksSection /> */}
       <KeynoteSpeakers />
       <FAQSection />
       <SponsorsSection />

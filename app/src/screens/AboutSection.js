@@ -237,7 +237,7 @@ const AboutSection = () => {
               color: "#FFFFFF"
             }}
           >
-            <span>PAST STATS</span>
+            <span>2019 STATS</span>
             <br />
             <br />
           </div>
