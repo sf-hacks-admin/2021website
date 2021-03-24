@@ -11,72 +11,162 @@ import backgroundImg from "../assets/tracksSection/backgroundImg.svg";
 import "../styles/recap.css";
 
 const WinnerCard = props => {
-    return(
-        <div
-        className="div-shadow"
+  return (
+    <div
+      className="div-shadow"
+      style={{
+        width: props.width === "xs" ? 250 : 400,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "center",
+        backgroundColor: "#ffffff",
+        margin: "20px",
+        borderRadius: 20
+      }}
+    >
+      <div
+        className="recap-card-img"
         style={{
-          width: props.width === "xs" ? 250 : 400,
-          height: props.width === "xs" ? undefined : 630,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          alignContent: "center",
-          backgroundColor: "#ffffff",
-          padding: "30px 50px",
-          margin: "20px",
-          borderRadius: 20
-        }}>
-            <img src={props.imgSrc} className="tracks-card-img" />
-            <div className="heading-3" style={{ marginTop: 20, marginBottom: 20 }}>
-                {props.projectName}
-            </div>
-            <div className="reg-2" style={{ textAlign: "center" }}>
-                {props.position}
-            </div>
-            <div className="heading-3" style={{ marginTop: 20, marginBottom: 20 }}>
-                {props.teamName}
-            </div>
-            <div className="reg-2" style={{ textAlign: "center" }}>
-                {props.description}
-            </div>
+          backgroundImage: `url(${props.imgSrc})`,
+          borderTopLeftRadius: 20,
+          borderTopRightRadius: 20
+        }}
+      ></div>
+      <div
+        style={{
+          height: props.width === "xs" ? undefined : 300,
+          width: 400
+        }}
+      >
+        <div
+          style={{
+            padding: "30px 50px",
+            textAlign: "center"
+          }}
+        >
+          <div className="recap-card-teamName">{props.teamName}</div>
+          <div className="recap-card-teamPlace">{props.position}</div>
+          <div style={{ marginBottom: 20 }} />
+          <div className="recap-card-projectName">{props.projectName}</div>
+          <div
+            className="recap-card-projectDesc"
+            style={{ textAlign: "center" }}
+          >
+            {props.description}
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 const Recap = () => {
-    return (
-        <div className="container-1 background-img-1 "
-        style={{ backgroundImage: `url(${backgroundImg})`, marginBottom: "230px"}}>
-
-            <div className="heading-1" style={{textAlign:"center"}}>2021 RECAP</div>
-            <img src={numParticipants} className="numParticipants"/>
-            <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              justifyContent: "center",
-              alignItems: "center",
-              margin: "20px"
-            }}
-          >
-            <img src={countries} className="countries"/>
-            <img src={presenters} className="presenters"/>
-          </div>
-            <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                
-                    <WinnerCard imgSrc={secondPlace} position={"2ND PLACE"} teamName={"QNA SPACE"} description={"A platform to help connect professors with students to help them understand the delivery of their content."}/>
-                    <WinnerCard style={{paddingBottom:"30px"}} imgSrc={firstPlace} position={"1ST PLACE"} teamName={"CHECKUP"} description={"An app that allows users to regularly check up on their physical and mental well-being without needing to visit a doctor."}/>
-                    <WinnerCard imgSrc={thirdPlace} position={"3RD PLACE"} teamName={"HEALTHY HABITS"} description={"Healthy Habits counts the number of repetitions you do in each workout using machine learning."}/>
-            </div>
-            <div style={{display:"flex", textAlign:"center"}}>
-                    <WinnerCard imgSrc={mobileHack} position={"BEST MOBILE HACK"} teamName={"TEAM BEAM"} description={"An app that helps you build and maintain meaningful relationships with your friends, family, and colleagues."}/>
-                    <WinnerCard imgSrc={beginnerHack} position={"BEST BEGINNING HACK"} teamName={"THE DREAM TEAM"} description={"An app that removes barriers to learning such as accessibility, affordability, and lack of engagement."}/>
-                
-            </div>
+  return (
+    <div className="parentContainer-1">
+      <div
+        className="mainContainer-1 background-img-1 "
+        style={{
+          backgroundImage: `url(${backgroundImg})`
+        }}
+      >
+        <div className="heading-1" style={{ textAlign: "center" }}>
+          2021 RECAP
         </div>
-    )
-}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+          <img src={numParticipants} className="recap_numParticipants" />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center"
+          }}
+        >
+          <img src={countries} className="recap_countries" />
+          <img src={presenters} className="recap_presenters" />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "center"
+          }}
+        >
+          <div className="winner2-outterdiv">
+            <WinnerCard
+              teamName={"TEAM BREADREN"}
+              imgSrc={secondPlace}
+              position={"2ND PLACE"}
+              projectName={"QNA SPACE"}
+              description={
+                "A platform to help connect professors with students to help them understand the delivery of their content."
+              }
+            />
+          </div>
+          <div className="winner1-outterdiv">
+            <WinnerCard
+              teamName={"TEAM SNU"}
+              style={{ paddingBottom: "30px" }}
+              imgSrc={secondPlace}
+              position={"1ST PLACE"}
+              projectName={"CHECKUP"}
+              description={
+                "An app that allows users to regularly check up on their physical and mental well-being without needing to visit a doctor."
+              }
+            />
+          </div>
+          <div className="winner3-outterdiv">
+            <WinnerCard
+              teamName={"TEAM TREE"}
+              imgSrc={secondPlace}
+              position={"3RD PLACE"}
+              projectName={"HEALTHY HABITS"}
+              description={
+                "Healthy Habits counts the number of repetitions you do in each workout using machine learning."
+              }
+            />
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "center"
+          }}
+        >
+          <WinnerCard
+            teamName={"TEAM BEAM"}
+            imgSrc={secondPlace}
+            position={"BEST MOBILE HACK"}
+            projectName={"TEAM BEAM"}
+            description={
+              "An app that helps you build and maintain meaningful relationships with your friends, family, and colleagues."
+            }
+          />
+          <WinnerCard
+            teamName={"THE DREAM TEAM"}
+            imgSrc={secondPlace}
+            position={"BEST BEGINNING HACK"}
+            projectName={"THE DREAM TEAM"}
+            description={
+              "An app that removes barriers to learning such as accessibility, affordability, and lack of engagement."
+            }
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Recap;

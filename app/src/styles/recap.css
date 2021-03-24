@@ -1,13 +1,82 @@
-.countries {
-    display: block;
-    margin: 0 auto;
-    width: 550px;
-    height: auto;
+.recap_numParticipants {
+  width: 550px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.recap_countries {
+  width: 450px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.recap_presenters {
+  width: 450px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.recap-card-teamName {
+  font: italic normal bold 35px/50px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.recap-card-teamPlace {
+  font: normal normal normal 18px/28px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.recap-card-projectName {
+  font: italic normal bold 30px/40px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.recap-card-projectDesc {
+  font: normal normal normal 15px/25px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.recap-card-img {
+  height: 300px;
+  width: 100%;
+}
+
+.winner1-outterdiv {
+  padding-bottom: 200px;
+}
+.winner2-outterdiv {
+  padding-bottom: 100px;
+}
+.winner3-outterdiv {
+  padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .recap_numParticipants {
+    width: 350px;
+  }
+  .recap_countries {
+    width: 250px;
   }
 
-  .presenters {
-    display: block;
-    margin: 0 auto;
-    width: 550px;
-    height: auto;
+  .recap_presenters {
+    width: 250px;
   }
+}
+
+@media only screen and (max-width: 540px) {
+  .recap_numParticipants {
+    width: 80vw;
+  }
+  .recap_countries {
+    width: 80vw;
+  }
+
+  .recap_presenters {
+    width: 80vw;
+  }
+}
