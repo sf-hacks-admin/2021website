@@ -43,6 +43,9 @@
 .recap-card-img {
   height: 300px;
   width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .winner1-outterdiv {
